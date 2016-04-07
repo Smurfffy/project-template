@@ -43,3 +43,23 @@ MATCH (gw5:Candidate {Name: "Máiread Ní Chróinín"}),(ge:Constituency {Name: 
 MATCH (gw6:Candidate {Name: "Anne Rabbitte"}),(ge:Constituency {Name: "Galway East"}) CREATE gw6-[:IN]->ge;
 MATCH (gw7:Candidate {Name: "Annemarie Roche"}),(ge:Constituency {Name: "Galway East"}) CREATE gw7-[:IN]->ge;
 
+MATCH (gec:Candidate {Name: "James Charity"}),(gw:Constituency {Name: "Galway West"}) CREATE gec-[:IN]->gw;
+MATCH (gec0:Candidate {Name: "Catherine Connolly"}),(gw:Constituency {Name: "Galway West"}) CREATE gec0-[:IN]->gw;
+MATCH (gec1:Candidate {Name: "John Connolly"}),(gw:Constituency {Name: "Galway West"}) CREATE gec1-[:IN]->gw;
+MATCH (gec2:Candidate {Name: "Mike Cubbard"}),(gw:Constituency {Name: "Galway West"}) CREATE gec2-[:IN]->gw;
+MATCH (gec3:Candidate {Name: "Nicola Daveron"}),(gw:Constituency {Name: "Galway West"}) CREATE gec3-[:IN]->gw;
+MATCH (gec4:Candidate {Name: "Noel Grealish"}),(gw:Constituency {Name: "Galway West"}) CREATE gec4-[:IN]->gw;
+MATCH (gec5:Candidate {Name: "Fidelma Healy Eames"}),(gw:Constituency {Name: "Galway West"}) CREATE gec5-[:IN]->gw;
+MATCH (gec6:Candidate {Name: "Mary Hoade"}),(gw:Constituency {Name: "Galway West"}) CREATE gec6-[:IN]->gw;
+MATCH (gec7:Candidate {Name: "Tommy Holohan"}),(gw:Constituency {Name: "Galway West"}) CREATE gec7-[:IN]->gw;
+MATCH (gec8:Candidate {Name: "Seán Kyne"}),(gw:Constituency {Name: "Galway West"}) CREATE gec8-[:IN]->gw;
+MATCH (gec9:Candidate {Name: "Hildegarde Naughton"}),(gw:Constituency {Name: "Galway West"}) CREATE gec9-[:IN]->gw;
+MATCH (gec11:Candidate {Name: "Derek Nolan"}),(gw:Constituency {Name: "Galway West"}) CREATE gec11-[:IN]->gw;
+MATCH (gec22:Candidate {Name: "Trevor Ó Clochartaigh"}),(gw:Constituency {Name: "Galway West"}) CREATE gec22-[:IN]->gw;
+MATCH (gec33:Candidate {Name: "Éamon Ó Cuív"}),(gw:Constituency {Name: "Galway West"}) CREATE gec33-[:IN]->gw;
+MATCH (gec44:Candidate {Name: "John O’Mahony"}),(gw:Constituency {Name: "Galway West"}) CREATE gec44-[:IN]->gw;
+MATCH (gec55:Candidate {Name: "Ruairi O’Neill"}),(gw:Constituency {Name: "Galway West"}) CREATE gec55-[:IN]->gw;
+MATCH (gec66:Candidate {Name: "Niall Ó Tuathail"}),(gw:Constituency {Name: "Galway West"}) CREATE gec66-[:IN]->gw;
+MATCH (gec77:Candidate {Name: "Tommy Roddy"}),(gw:Constituency {Name: "Galway West"}) CREATE gec77-[:IN]->gw;
+MATCH (gec88:Candidate {Name: "Seamus Sheridan"}),(gw:Constituency {Name: "Galway West"}) CREATE gec88-[:IN]->gw;
+
