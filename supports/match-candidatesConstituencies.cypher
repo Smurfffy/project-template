@@ -33,3 +33,13 @@ MATCH (cmc11:Candidate {Name: "Mary Smyth"}),(cm:Constituency {Name: "Cavan-Mona
 MATCH (cmc22:Candidate {Name: "Niamh Smyth"}),(cm:Constituency {Name: "Cavan-Monaghan"}) CREATE cmc22-[:IN]->cm;
 MATCH (cmc33:Candidate {Name: "John Wilson"}),(cm:Constituency {Name: "Cavan-Monaghan"}) CREATE cmc33-[:IN]->cm;
 
+MATCH (gw:Candidate {Name: "Sean Canney"}),(ge:Constituency {Name: "Galway East"}) CREATE gw-[:IN]->ge;
+MATCH (gw0:Candidate {Name: "Ciarán Cannon"}),(ge:Constituency {Name: "Galway East"}) CREATE gw0-[:IN]->ge;
+MATCH (gw1:Candidate {Name: "Paul Connaughton, Jr."}),(ge:Constituency {Name: "Galway East"}) CREATE gw1-[:IN]->ge;
+MATCH (gw2:Candidate {Name: "Michael Fahy"}),(ge:Constituency {Name: "Galway East"}) CREATE gw2-[:IN]->ge;
+MATCH (gw3:Candidate {Name: "Lorraine Higgins"}),(ge:Constituency {Name: "Galway East"}) CREATE gw3-[:IN]->ge;
+MATCH (gw4:Candidate {Name: "Colm Keaveney"}),(ge:Constituency {Name: "Galway East"}) CREATE gw4-[:IN]->ge;
+MATCH (gw5:Candidate {Name: "Máiread Ní Chróinín"}),(ge:Constituency {Name: "Galway East"}) CREATE gw5-[:IN]->ge;
+MATCH (gw6:Candidate {Name: "Anne Rabbitte"}),(ge:Constituency {Name: "Galway East"}) CREATE gw6-[:IN]->ge;
+MATCH (gw7:Candidate {Name: "Annemarie Roche"}),(ge:Constituency {Name: "Galway East"}) CREATE gw7-[:IN]->ge;
+

@@ -17,6 +17,7 @@ CREATE
 	, (dgc33:Candidate {Name: "Michael Mooney", Party: "Independant", info: "Na", gender: "Male"})
 	, (dgc44:Candidate {Name: "Thomas Pringle", Party: "Independant", info: "Outgoing TD", gender: "Male"})
 	, (dgc55:Candidate {Name: "Dessie Shiels", Party: "Independant", info: "Counciller", gender: "Male"})
+	
 	, (cmc:Candidate {Name: "Micheál Callaghan", Party: "Green Party", info: "NA", gender: "Male"})
 	, (cmc0:Candidate {Name: "Sean Conlan", Party: "Green Party", info: "NA", gender: "Male"})
 	, (cmc1:Candidate {Name: "Mike Durkan", Party: "Fianna Fáil", info: "NA", gender:"NA", gender: "Male"})
@@ -32,4 +33,14 @@ CREATE
 	, (cmc11:Candidate {Name: "Mary Smyth", Party: "Independant", info: "NA", gender: "Female"})
 	, (cmc22:Candidate {Name: "Niamh Smyth", Party: "Fianna Fáil", info: "Counciller", gender: "Female"})
 	, (cmc33:Candidate {Name: "John Wilson", Party: "Independant", info: "NA", gender: "Male"})
+	
+	, (gw:Candidate {Name: "Sean Canney", Party: "Independant", info: "Counciller", gender: "Male"})
+	, (gw0:Candidate {Name: "Ciarán Cannon", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
+	, (gw1:Candidate {Name: "Paul Connaughton, Jr.", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
+	, (gw2:Candidate {Name: "Michael Fahy", Party: "Independant", info: "Counciller", gender: "Male"})
+	, (gw3:Candidate {Name: "Lorraine Higgins", Party: "Labour", info: "Senator", gender: "Female"})
+	, (gw4:Candidate {Name: "Colm Keaveney", Party: "Fianna Fáil", info: "Outgoing TD", gender: "Male"})
+	, (gw5:Candidate {Name: "Máiread Ní Chróinín", Party: "Green Party", info: "NA", gender: "Female"})
+	, (gw6:Candidate {Name: "Anne Rabbitte", Party: "Fianna Fáil", info: "Counciller", gender: "Female"})
+	, (gw7:Candidate {Name: "Annemarie Roche", Party: "Sinn Fine", info: "NA", gender: "Female"})
 ;
