@@ -221,3 +221,16 @@ MATCH (mwc6:Candidate {Name: "Tracy McElhinney"}),(mw:Constituency {Name: "Meath
 MATCH (mwc7:Candidate {Name: "Seamus McMenamin"}),(mw:Constituency {Name: "Meath West"}) CREATE mec7-[:IN]->mw;
 MATCH (mwc8:Candidate {Name: "Peadar Tóibín"}),(mw:Constituency {Name: "Meath West"}) CREATE mec8-[:IN]->mw;
 
+MATCH (ofc:Candidate {Name: "Kate Bopp"}),(of:Constituency {Name: "Offaly"}) CREATE ofc-[:IN]->of;
+MATCH (ofc1:Candidate {Name: "Marcella Corcoran Kennedy"}),(of:Constituency {Name: "Offaly"}) CREATE ofc1-[:IN]->of;
+MATCH (ofc2:Candidate {Name: "Barry Cowen"}),(of:Constituency {Name: "Offaly"}) CREATE ofc2-[:IN]->of;
+MATCH (ofc3:Candidate {Name: "Christopher Fettes"}),(of:Constituency {Name: "Offaly"}) CREATE ofc3-[:IN]->of;
+MATCH (ofc4:Candidate {Name: "Eddie Fitzpatrick"}),(of:Constituency {Name: "Offaly"}) CREATE ofc4-[:IN]->of;
+MATCH (ofc5:Candidate {Name: "John Foley"}),(of:Constituency {Name: "Offaly"}) CREATE ofc5-[:IN]->of;
+MATCH (ofc6:Candidate {Name: "Joe Hannigan"}),(of:Constituency {Name: "Offaly"}) CREATE ofc6-[:IN]->of;
+MATCH (ofc7:Candidate {Name: "Ken Smollen"}),(of:Constituency {Name: "Offaly"}) CREATE ofc7-[:IN]->of;
+MATCH (ofc8:Candidate {Name: "John Leahy"}),(of:Constituency {Name: "Offaly"}) CREATE ofc8-[:IN]->of;
+MATCH (ofc9:Candidate {Name: "Carol Nolan"}),(of:Constituency {Name: "Offaly"}) CREATE ofc9-[:IN]->of;
+MATCH (ofc0:Candidate {Name: "Teresa Ryan-Feehan"}),(of:Constituency {Name: "Offaly"}) CREATE ofc0-[:IN]->of;
+
+
