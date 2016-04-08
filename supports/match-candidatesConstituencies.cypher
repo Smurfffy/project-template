@@ -146,5 +146,21 @@ MATCH (ckc33:Candidate {Name: "John Paul Phelan"}),(ck:Constituency {Name: "Carl
 MATCH (ckc44:Candidate {Name: "Adrienne Wallace"}),(ck:Constituency {Name: "Carlow-Kilkenny"}) CREATE ckc44-[:IN]->ck;
 MATCH (ckc55:Candidate {Name: "Noel Walsh"}),(ck:Constituency {Name: "Carlow-Kilkenny"}) CREATE ckc55-[:IN]->ck;
 
+MATCH (knc:Candidate {Name: "Michael Beirne"}),(kn:Constituency {Name: "Kildare North"}) CREATE knc-[:IN]->kn;
+MATCH (knc1:Candidate {Name: "Réada Cronin"}),(kn:Constituency {Name: "Kildare North"}) CREATE knc1-[:IN]->kn;
+MATCH (knc2:Candidate {Name: "Bernard Durkin"}),(kn:Constituency {Name: "Kildare North"}) CREATE knc2-[:IN]->kn;
+MATCH (knc3:Candidate {Name: "Gerard Dunne"}),(kn:Constituency {Name: "Kildare North"}) CREATE knc3-[:IN]->kn;
+MATCH (knc4:Candidate {Name: "Maebh Ní Fhallúin"}),(kn:Constituency {Name: "Kildare North"}) CREATE knc4-[:IN]->kn;
+MATCH (knc5:Candidate {Name: "Shane Fitzgerald"}),(kn:Constituency {Name: "Kildare North"}) CREATE knc5-[:IN]->kn;
+MATCH (knc6:Candidate {Name: "James Lawless"}),(kn:Constituency {Name: "Kildare North"}) CREATE knc6-[:IN]->kn;
+MATCH (knc7:Candidate {Name: "Anthony Lawlor"}),(kn:Constituency {Name: "Kildare North"}) CREATE knc7-[:IN]->kn;
+MATCH (knc8:Candidate {Name: "Ashling Merriman"}),(kn:Constituency {Name: "Kildare North"}) CREATE knc8-[:IN]->kn;
+MATCH (knc9:Candidate {Name: "Catherine Murphy"}),(kn:Constituency {Name: "Kildare North"}) CREATE knc9-[:IN]->kn;
+MATCH (knc0:Candidate {Name: "Frank O’Rourke"}),(kn:Constituency {Name: "Kildare North"}) CREATE knc0-[:IN]->kn;
+MATCH (knc11:Candidate {Name: "Elizabeth O’Sullivan"}),(kn:Constituency {Name: "Kildare North"}) CREATE knc11-[:IN]->kn;
+MATCH (knc22:Candidate {Name: "Emmet Stagg"}),(kn:Constituency {Name: "Kildare North"}) CREATE knc22-[:IN]->kn;
+MATCH (knc33:Candidate {Name: "Brendan Young"}),(kn:Constituency {Name: "Kildare North"}) CREATE knc33-[:IN]->kn;
+
+
 
 
