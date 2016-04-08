@@ -80,4 +80,17 @@ CREATE
 	, (myc33:Candidate {Name: "Margaret Sheehan", Party: "Green Party", info: "NA", gender: "Female"})
 	, (myc44:Candidate {Name: "Rose Conway Walsh", Party: "Sinn Fine", info: "Counciller", gender: "Female"})
 	, (myc55:Candidate {Name: "Kamal Uddin", Party: "Independant", info: "NA", gender: "Male"})
+	
+	, (rgc:Candidate {Name: "Tony Coleman", Party: "Independant", info: "NA", gender: "Male"})
+	, (rgc1:Candidate {Name: "Eddie Conroy", Party: "AAA", info: "NA", gender: "Male"})
+	, (rgc2:Candidate {Name: "Shane Curran", Party: "Fine Fáil", info: "NA", gender: "Male"})
+	, (rgc3:Candidate {Name: "Thomas Declan Fallon", Party: "Independant", info: "NA", gender: "Male"})
+	, (rgc4:Candidate {Name: "Anne Farrell", Party: "Renua", info: "NA", gender: "Female"})
+	, (rgc5:Candidate {Name: "Michael Fitzmaurice", Party: "Independant", info: "Outgoing TD", gender: "Male"})
+	, (rgc6:Candidate {Name: "Miriam Hennessy", Party: "Green Party", info: "NA", gender: "Male"})
+	, (rgc7:Candidate {Name: "Maura Hopkins", Party: "Fine Gael", info: "Counciller", gender: "Female"})
+	, (rgc8:Candidate {Name: "John Kelly", Party: "Labour", info: "Senator", gender: "Male"})
+	, (rgc9:Candidate {Name: "Claire Kerrane", Party: "Sinn Fine", info: "NA", gender: "Female"})
+	, (rgc0:Candidate {Name: "Eugene Murphy", Party: "Fianna Fáil", info: "Counciller", gender: "Male"})
+	, (rgc11:Candidate {Name: "Denis Naughten", Party: "Independant", info: "Outgoing TD", gender: "Male"})
 ;
