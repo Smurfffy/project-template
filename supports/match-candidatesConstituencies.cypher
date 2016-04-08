@@ -211,15 +211,15 @@ MATCH (mec:Candidate {Name: "Aisling O’Neill"}),(me:Constituency {Name: "Meath
 MATCH (mec:Candidate {Name: "Darren O’Rourke"}),(me:Constituency {Name: "Meath East"}) CREATE mec-[:IN]->me;
 MATCH (mec:Candidate {Name: "Sarah Tyrell"}),(me:Constituency {Name: "Meath East"}) CREATE mec-[:IN]->me;
 
-MATCH (mwc:Candidate {Name: "Ray Butler"}),(mw:Constituency {Name: "Meath West"}) CREATE mec-[:IN]->mw;
-MATCH (mwc1:Candidate {Name: "Shane Cassels"}),(mw:Constituency {Name: "Meath West"}) CREATE mec1-[:IN]->mw;
-MATCH (mwc2:Candidate {Name: "Damien English"}),(mw:Constituency {Name: "Meath West"}) CREATE mec2-[:IN]->mw;
-MATCH (mwc3:Candidate {Name: "Trevor Golden"}),(mw:Constituency {Name: "Meath West"}) CREATE mec3-[:IN]->mw;
-MATCH (mwc4:Candidate {Name: "Alan Lawes"}),(mw:Constituency {Name: "Meath West"}) CREATE mec4-[:IN]->mw;
-MATCH (mwc5:Candidate {Name: "John Malone"}),(mw:Constituency {Name: "Meath West"}) CREATE mec5-[:IN]->mw;
-MATCH (mwc6:Candidate {Name: "Tracy McElhinney"}),(mw:Constituency {Name: "Meath West"}) CREATE mec6-[:IN]->mw;
-MATCH (mwc7:Candidate {Name: "Seamus McMenamin"}),(mw:Constituency {Name: "Meath West"}) CREATE mec7-[:IN]->mw;
-MATCH (mwc8:Candidate {Name: "Peadar Tóibín"}),(mw:Constituency {Name: "Meath West"}) CREATE mec8-[:IN]->mw;
+MATCH (mwc:Candidate {Name: "Ray Butler"}),(mw:Constituency {Name: "Meath West"}) CREATE mwc-[:IN]->mw;
+MATCH (mwc1:Candidate {Name: "Shane Cassels"}),(mw:Constituency {Name: "Meath West"}) CREATE mwc1-[:IN]->mw;
+MATCH (mwc2:Candidate {Name: "Damien English"}),(mw:Constituency {Name: "Meath West"}) CREATE mwc2-[:IN]->mw;
+MATCH (mwc3:Candidate {Name: "Trevor Golden"}),(mw:Constituency {Name: "Meath West"}) CREATE mwc3-[:IN]->mw;
+MATCH (mwc4:Candidate {Name: "Alan Lawes"}),(mw:Constituency {Name: "Meath West"}) CREATE mwc4-[:IN]->mw;
+MATCH (mwc5:Candidate {Name: "John Malone"}),(mw:Constituency {Name: "Meath West"}) CREATE mwc5-[:IN]->mw;
+MATCH (mwc6:Candidate {Name: "Tracy McElhinney"}),(mw:Constituency {Name: "Meath West"}) CREATE mwc6-[:IN]->mw;
+MATCH (mwc7:Candidate {Name: "Seamus McMenamin"}),(mw:Constituency {Name: "Meath West"}) CREATE mwc7-[:IN]->mw;
+MATCH (mwc8:Candidate {Name: "Peadar Tóibín"}),(mw:Constituency {Name: "Meath West"}) CREATE mwc8-[:IN]->mw;
 
 MATCH (ofc:Candidate {Name: "Kate Bopp"}),(of:Constituency {Name: "Offaly"}) CREATE ofc-[:IN]->of;
 MATCH (ofc1:Candidate {Name: "Marcella Corcoran Kennedy"}),(of:Constituency {Name: "Offaly"}) CREATE ofc1-[:IN]->of;
@@ -284,6 +284,24 @@ MATCH (clc22:Candidate {Name: "Anne Norton"}),(cl:Constituency {Name: "Clare"}) 
 MATCH (clc33:Candidate {Name: "Niamh O’Brien"}),(cl:Constituency {Name: "Clare"}) CREATE clc33-[:IN]->cl;
 MATCH (clc44:Candidate {Name: "André Sibo Hakizimana"}),(cl:Constituency {Name: "Clare"}) CREATE clc44-[:IN]->cl;
 MATCH (clc55:Candidate {Name: "Fergal Smith"}),(cl:Constituency {Name: "Clare"}) CREATE clc55-[:IN]->cl;
+
+MATCH (ce:Candidate {Name: "Barbara Ahern"}),(ce:Constituency {Name: "Cork East"}) CREATE ce-[:IN]->ce;
+MATCH (ce1:Candidate {Name: "Tom Barry"}),(ce:Constituency {Name: "Cork East"}) CREATE ce1-[:IN]->ce;
+MATCH (ce2:Candidate {Name: "Paul Bradford"}),(ce:Constituency {Name: "Cork East"}) CREATE ce2-[:IN]->ce;
+MATCH (ce3:Candidate {Name: "Pat Buckley"}),(ce:Constituency {Name: "Cork East"}) CREATE ce3-[:IN]->ce;
+MATCH (ce4:Candidate {Name: "Paddy Bullman"}),(ce:Constituency {Name: "Cork East"}) CREATE ce4-[:IN]->ce;
+MATCH (ce5:Candidate {Name: "Ross Cannon"}),(ce:Constituency {Name: "Cork East"}) CREATE ce5-[:IN]->ce;
+MATCH (ce6:Candidate {Name: "Claire Cullinane"}),(ce:Constituency {Name: "Cork East"}) CREATE ce6-[:IN]->ce;
+MATCH (ce7:Candidate {Name: "Ken Curtin"}),(ce:Constituency {Name: "Cork East"}) CREATE ce7-[:IN]->ce;
+MATCH (ce8:Candidate {Name: "Ken Curtin"}),(ce:Constituency {Name: "Cork East"}) CREATE ce8-[:IN]->ce;
+MATCH (ce9:Candidate {Name: "Mary Linehan Foley"}),(ce:Constituency {Name: "Cork East"}) CREATE ce9-[:IN]->ce;
+MATCH (ce0:Candidate {Name: "Ciara Leonardi Roche"}),(ce:Constituency {Name: "Cork East"}) CREATE ce0-[:IN]->ce;
+MATCH (ce11:Candidate {Name: "Kieran McCarthy"}),(ce:Constituency {Name: "Cork East"}) CREATE ce11-[:IN]->ce;
+MATCH (ce22:Candidate {Name: "Noel McCarthy"}),(ce:Constituency {Name: "Cork East"}) CREATE ce22-[:IN]->ce;
+MATCH (ce33:Candidate {Name: "Kevin O’Keefe"}),(ce:Constituency {Name: "Cork East"}) CREATE ce33-[:IN]->ce;
+MATCH (ce44:Candidate {Name: "Sean Sherlock"}),(ce:Constituency {Name: "Cork East"}) CREATE ce44-[:IN]->ce;
+MATCH (ce55:Candidate {Name: "David Stanton"}),(ce:Constituency {Name: "Cork East"}) CREATE ce55-[:IN]->ce;
+
 
 
 
