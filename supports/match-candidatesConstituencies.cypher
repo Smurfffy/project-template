@@ -63,3 +63,20 @@ MATCH (gec66:Candidate {Name: "Niall Ó Tuathail"}),(gw:Constituency {Name: "Gal
 MATCH (gec77:Candidate {Name: "Tommy Roddy"}),(gw:Constituency {Name: "Galway West"}) CREATE gec77-[:IN]->gw;
 MATCH (gec88:Candidate {Name: "Seamus Sheridan"}),(gw:Constituency {Name: "Galway West"}) CREATE gec88-[:IN]->gw;
 
+MATCH (myc:Candidate {Name: "Dara Calleary"}),(my:Constituency {Name: "Mayo"}) CREATE myc-[:IN]->my;
+MATCH (myc1:Candidate {Name: "Lisa Chambers"}),(my:Constituency {Name: "Mayo"}) CREATE myc1-[:IN]->my;
+MATCH (myc2:Candidate {Name: "Jerry Cowley"}),(my:Constituency {Name: "Mayo"}) CREATE myc2-[:IN]->my;
+MATCH (myc3:Candidate {Name: "Michael Farrington"}),(my:Constituency {Name: "Mayo"}) CREATE myc3-[:IN]->my;
+MATCH (myc4:Candidate {Name: "Sean Forkan"}),(my:Constituency {Name: "Mayo"}) CREATE myc4-[:IN]->my;
+MATCH (myc5:Candidate {Name: "Peter Jordan"}),(my:Constituency {Name: "Mayo"}) CREATE myc5-[:IN]->my;
+MATCH (myc6:Candidate {Name: "Enda Kenny"}),(my:Constituency {Name: "Mayo"}) CREATE myc6-[:IN]->my;
+MATCH (myc7:Candidate {Name: "Stephen Manning"}),(my:Constituency {Name: "Mayo"}) CREATE myc7-[:IN]->my;
+MATCH (myc8:Candidate {Name: "Tom Moran"}),(my:Constituency {Name: "Mayo"}) CREATE myc8-[:IN]->my;
+MATCH (myc9:Candidate {Name: "Michelle Mulherin"}),(my:Constituency {Name: "Mayo"}) CREATE myc9-[:IN]->my;
+MATCH (myc0:Candidate {Name: "Gerry O’Boyle"}),(my:Constituency {Name: "Mayo"}) CREATE myc0-[:IN]->my;
+MATCH (myc11:Candidate {Name: "George O’Malley"}),(my:Constituency {Name: "Mayo"}) CREATE myc11-[:IN]->my;
+MATCH (myc22:Candidate {Name: "Michael Ring"}),(my:Constituency {Name: "Mayo"}) CREATE myc22-[:IN]->my;
+MATCH (myc33:Candidate {Name: "Margaret Sheehan"}),(my:Constituency {Name: "Mayo"}) CREATE myc33-[:IN]->my;
+MATCH (myc44:Candidate {Name: "Rose Conway Walsh"}),(my:Constituency {Name: "Mayo"}) CREATE myc44-[:IN]->my;
+MATCH (myc55:Candidate {Name: "Kamal Uddin"}),(my:Constituency {Name: "Mayo"}) CREATE myc55-[:IN]->my;
+
