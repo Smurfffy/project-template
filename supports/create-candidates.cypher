@@ -171,4 +171,11 @@ CREATE
 	, (ksc6:Candidate {Name: "Fiona O’Loughlin", Party: "Fianna Fáil", info: "Counciller", gender: "Female"})
 	, (ksc7:Candidate {Name: "Patricia Ryan", Party: "Sinn Fine", info: "NA", gender: "Female"})
 	, (ksc8:Candidate {Name: "Mark Wall", Party: "Labour", info: "Counciller", gender: "Male"})
+	
+	, (ls:Candidate {Name: "Thomasina Connell", Party: "Fine Gael", info: "NA", gender: "Male"})
+	, (ls1:Candidate {Name: "Charles Flanagan", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
+	, (ls2:Candidate {Name: "Séan Fleming", Party: "Fianna Fáil", info: "Outgoing TD", gender: "Male"})
+	, (ls3:Candidate {Name: "Sinead Moore", Party: "Green Party", info: "NA", gender: "Female"})
+	, (ls4:Candidate {Name: "Brian Stanley", Party: "Sinn Fine", info: "Outgoing TD", gender: "Male"})
+	, (ls5:Candidate {Name: "John Whelan", Party: "Labour", info: "Senator", gender: "Male"})
 ;
