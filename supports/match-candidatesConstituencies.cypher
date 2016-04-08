@@ -161,6 +161,15 @@ MATCH (knc11:Candidate {Name: "Elizabeth O’Sullivan"}),(kn:Constituency {Name:
 MATCH (knc22:Candidate {Name: "Emmet Stagg"}),(kn:Constituency {Name: "Kildare North"}) CREATE knc22-[:IN]->kn;
 MATCH (knc33:Candidate {Name: "Brendan Young"}),(kn:Constituency {Name: "Kildare North"}) CREATE knc33-[:IN]->kn;
 
+MATCH (ksc:Candidate {Name: "Declan Crowe"}),(ks:Constituency {Name: "Kildare South"}) CREATE ksc-[:IN]->ks;
+MATCH (ksc:Candidate {Name: "Martin Heydon"}),(ks:Constituency {Name: "Kildare South"}) CREATE ksc-[:IN]->ks;
+MATCH (ksc:Candidate {Name: "Mary Kennedy"}),(ks:Constituency {Name: "Kildare South"}) CREATE ksc-[:IN]->ks;
+MATCH (ksc:Candidate {Name: "Suzanne McEneaney"}),(ks:Constituency {Name: "Kildare South"}) CREATE ksc-[:IN]->ks;
+MATCH (ksc:Candidate {Name: "Fiona McLoughlin-Healy"}),(ks:Constituency {Name: "Kildare South"}) CREATE ksc-[:IN]->ks;
+MATCH (ksc:Candidate {Name: "Seán Ó Fearghail"}),(ks:Constituency {Name: "Kildare South"}) CREATE ksc-[:IN]->ks;
+MATCH (ksc:Candidate {Name: "Fiona O’Loughlin"}),(ks:Constituency {Name: "Kildare South"}) CREATE ksc-[:IN]->ks;
+MATCH (ksc:Candidate {Name: "Patricia Ryan"}),(ks:Constituency {Name: "Kildare South"}) CREATE ksc-[:IN]->ks;
+MATCH (ksc:Candidate {Name: "Mark Wall"}),(ks:Constituency {Name: "Kildare South"}) CREATE ksc-[:IN]->ks;
 
 
 
