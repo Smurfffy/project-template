@@ -93,3 +93,24 @@ MATCH (rgc9:Candidate {Name: "Claire Kerrane"}),(rg:Constituency {Name: "Roscomm
 MATCH (rgc0:Candidate {Name: "Eugene Murphy"}),(rg:Constituency {Name: "Roscommon-Galway"}) CREATE rgc0-[:IN]->rg;
 MATCH (rgc11:Candidate {Name: "Denis Naughten"}),(rg:Constituency {Name: "Roscommon-Galway"}) CREATE rgc11-[:IN]->rg;
 
+MATCH (slc:Candidate {Name: "Declan Bree"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc-[:IN]->sl;
+MATCH (slc1:Candidate {Name: "Marie Casserly"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc1-[:IN]->sl;
+MATCH (slc2:Candidate {Name: "Finbar Filan"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc2-[:IN]->sl;
+MATCH (slc3:Candidate {Name: "Bernard Gallagher"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc3-[:IN]->sl;
+MATCH (slc4:Candidate {Name: "Nigel Gallagher"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc4-[:IN]->sl;
+MATCH (slc5:Candidate {Name: "Des Guckian"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc5-[:IN]->sl;
+MATCH (slc6:Candidate {Name: "Martin Kenny"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc6-[:IN]->sl;
+MATCH (slc7:Candidate {Name: "Chris MacManus"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc7-[:IN]->sl;
+MATCH (slc8:Candidate {Name: "Marc MacSharry"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc8-[:IN]->sl;
+MATCH (slc9:Candidate {Name: "Tony McLoughlin"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc9-[:IN]->sl;
+MATCH (slc0:Candidate {Name: "Eamon Murray"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc0-[:IN]->sl;
+MATCH (slc11:Candidate {Name: "Bernie O’Hara"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc11-[:IN]->sl;
+MATCH (slc22:Candidate {Name: "Leslie O’Hora"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc22-[:IN]->sl;
+MATCH (slc33:Candidate {Name: "Susan O’Keeffe"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc33-[:IN]->sl;
+MATCH (slc44:Candidate {Name: "Paddy O’Rourke"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc44-[:IN]->sl;
+MATCH (slc55:Candidate {Name: "John Perry"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc55-[:IN]->sl;
+MATCH (slc66:Candidate {Name: "Gerry Reynolds"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc66-[:IN]->sl;
+MATCH (slc77:Candidate {Name: "Eamon Scanlon"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc77-[:IN]->sl;
+MATCH (slc88:Candidate {Name: "Bernard Sweeney"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc88-[:IN]->sl;
+
+
