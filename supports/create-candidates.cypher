@@ -222,4 +222,15 @@ CREATE
 	, (mwc7:Candidate {Name: "Seamus McMenamin", Party: "Green Party", info: "NA", gender: "Male"})
 	, (mwc8:Candidate {Name: "Peadar Tóibín", Party: "Sinn Fine", info: "Outgoing TD", gender: "Male"})
 	
+	, (ofc:Candidate {Name: "Kate Bopp", Party: "Independant", info: "NA", gender: "Female"})
+	, (ofc1:Candidate {Name: "Marcella Corcoran Kennedy", Party: "Fine Gael", info: "Outgoing TD", gender: "Female"})
+	, (ofc2:Candidate {Name: "Barry Cowen", Party: "Fianna Fáil", info: "Outgoing TD", gender: "Male"})
+	, (ofc3:Candidate {Name: "Christopher Fettes", Party: "Green Party", info: "NA", gender: "Male"})
+	, (ofc4:Candidate {Name: "Eddie Fitzpatrick", Party: "Fianna Fáil", info: "Counciller", gender: "Male"})
+	, (ofc5:Candidate {Name: "John Foley", Party: "Independant", info: "Counciller", gender: "Male"})
+	, (ofc6:Candidate {Name: "Joe Hannigan", Party: "Independant", info: "Counciller", gender: "Male"})
+	, (ofc7:Candidate {Name: "Ken Smollen", Party: "Irish Democratic Party", info: "NA", gender: "Male"})
+	, (ofc8:Candidate {Name: "John Leahy", Party: "Renua", info: "Counciller", gender: "Male"})
+	, (ofc9:Candidate {Name: "Carol Nolan", Party: "Sinn Fine", info: "Counciller", gender: "Female"})
+	, (ofc0:Candidate {Name: "Teresa Ryan-Feehan", Party: "Independant", info: "NA", gender: "Female"})
 ;
