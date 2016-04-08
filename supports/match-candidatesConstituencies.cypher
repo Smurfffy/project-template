@@ -113,4 +113,21 @@ MATCH (slc66:Candidate {Name: "Gerry Reynolds"}),(sl:Constituency {Name: "Sligo-
 MATCH (slc77:Candidate {Name: "Eamon Scanlon"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc77-[:IN]->sl;
 MATCH (slc88:Candidate {Name: "Bernard Sweeney"}),(sl:Constituency {Name: "Sligo-Leitrim"}) CREATE slc88-[:IN]->sl;
 
+MATCH (ltc:Candidate {Name: "Gerry Adams"}),(lt:Constituency {Name: "Louth"}) CREATE ltc-[:IN]->lt;
+MATCH (ltc1:Candidate {Name: "David Bradley"}),(lt:Constituency {Name: "Louth"}) CREATE ltc1-[:IN]->lt;
+MATCH (ltc2:Candidate {Name: "Declan Breathnach"}),(lt:Constituency {Name: "Louth"}) CREATE ltc2-[:IN]->lt;
+MATCH (ltc3:Candidate {Name: "Kevin Callan"}),(lt:Constituency {Name: "Louth"}) CREATE ltc3-[:IN]->lt;
+MATCH (ltc4:Candidate {Name: "Emma Coffey"}),(lt:Constituency {Name: "Louth"}) CREATE ltc4-[:IN]->lt;
+MATCH (ltc5:Candidate {Name: "Anthony Connor"}),(lt:Constituency {Name: "Louth"}) CREATE ltc5-[:IN]->lt;
+MATCH (ltc6:Candidate {Name: "Mark Dearey"}),(lt:Constituency {Name: "Louth"}) CREATE ltc6-[:IN]->lt;
+MATCH (ltc7:Candidate {Name: "Peter Fitzpatrick"}),(lt:Constituency {Name: "Louth"}) CREATE ltc7-[:IN]->lt;
+MATCH (ltc8:Candidate {Name: "Pat Greene"}),(lt:Constituency {Name: "Louth"}) CREATE ltc8-[:IN]->lt;
+MATCH (ltc9:Candidate {Name: "Mary Moran"}),(lt:Constituency {Name: "Louth"}) CREATE ltc9-[:IN]->lt;
+MATCH (ltc0:Candidate {Name: "Imelda Munster"}),(lt:Constituency {Name: "Louth"}) CREATE ltc0-[:IN]->lt;
+MATCH (ltc11:Candidate {Name: "Gerald Nash"}),(lt:Constituency {Name: "Louth"}) CREATE ltc11-[:IN]->lt;
+MATCH (ltc22:Candidate {Name: "Fergus O’Dowd"}),(lt:Constituency {Name: "Louth"}) CREATE ltc22-[:IN]->lt;
+MATCH (ltc33:Candidate {Name: "Michael O’Dowd"}),(lt:Constituency {Name: "Louth"}) CREATE ltc33-[:IN]->lt;
+MATCH (ltc44:Candidate {Name: "Gareth Weldon"}),(lt:Constituency {Name: "Louth"}) CREATE ltc44-[:IN]->lt;
+MATCH (ltc55:Candidate {Name: "Maeve Yore"}),(lt:Constituency {Name: "Louth"}) CREATE ltc55-[:IN]->lt;
+
 
