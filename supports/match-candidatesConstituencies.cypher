@@ -171,5 +171,12 @@ MATCH (ksc:Candidate {Name: "Fiona O’Loughlin"}),(ks:Constituency {Name: "Kild
 MATCH (ksc:Candidate {Name: "Patricia Ryan"}),(ks:Constituency {Name: "Kildare South"}) CREATE ksc-[:IN]->ks;
 MATCH (ksc:Candidate {Name: "Mark Wall"}),(ks:Constituency {Name: "Kildare South"}) CREATE ksc-[:IN]->ks;
 
+MATCH (lsc:Candidate {Name: "Thomasina Connell"}),(ls:Constituency {Name: "Laois"}) CREATE lsc-[:IN]->ls;
+MATCH (lsc1:Candidate {Name: "Charles Flanagan"}),(ls:Constituency {Name: "Laois"}) CREATE lsc1-[:IN]->ls;
+MATCH (lsc2:Candidate {Name: "Séan Fleming"}),(ls:Constituency {Name: "Laois"}) CREATE lsc2-[:IN]->ls;
+MATCH (lsc3:Candidate {Name: "Sinead Moore"}),(ls:Constituency {Name: "Laois"}) CREATE lsc3-[:IN]->ls;
+MATCH (lsc4:Candidate {Name: "Brian Stanley"}),(ls:Constituency {Name: "Laois"}) CREATE lsc4-[:IN]->ls;
+MATCH (lsc5:Candidate {Name: "John Whelan"}),(ls:Constituency {Name: "Laois"}) CREATE lsc5-[:IN]->ls;
+
 
 
