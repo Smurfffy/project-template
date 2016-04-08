@@ -80,3 +80,16 @@ MATCH (myc33:Candidate {Name: "Margaret Sheehan"}),(my:Constituency {Name: "Mayo
 MATCH (myc44:Candidate {Name: "Rose Conway Walsh"}),(my:Constituency {Name: "Mayo"}) CREATE myc44-[:IN]->my;
 MATCH (myc55:Candidate {Name: "Kamal Uddin"}),(my:Constituency {Name: "Mayo"}) CREATE myc55-[:IN]->my;
 
+MATCH (rgc:Candidate {Name: "Tony Coleman"}),(rg:Constituency {Name: "Roscommon-Galway"}) CREATE rgc-[:IN]->rg;
+MATCH (rgc1:Candidate {Name: "Eddie Conroy"}),(rg:Constituency {Name: "Roscommon-Galway"}) CREATE rgc1-[:IN]->rg;
+MATCH (rgc2:Candidate {Name: "Shane Curran"}),(rg:Constituency {Name: "Roscommon-Galway"}) CREATE rgc2-[:IN]->rg;
+MATCH (rgc3:Candidate {Name: "Thomas Declan Fallon"}),(rg:Constituency {Name: "Roscommon-Galway"}) CREATE rgc3-[:IN]->rg;
+MATCH (rgc4:Candidate {Name: "Anne Farrell"}),(rg:Constituency {Name: "Roscommon-Galway"}) CREATE rgc4-[:IN]->rg;
+MATCH (rgc5:Candidate {Name: "Michael Fitzmaurice"}),(rg:Constituency {Name: "Roscommon-Galway"}) CREATE rgc5-[:IN]->rg;
+MATCH (rgc6:Candidate {Name: "Miriam Hennessy"}),(rg:Constituency {Name: "Roscommon-Galway"}) CREATE rgc6-[:IN]->rg;
+MATCH (rgc7:Candidate {Name: "Maura Hopkins"}),(rg:Constituency {Name: "Roscommon-Galway"}) CREATE rgc7-[:IN]->rg;
+MATCH (rgc8:Candidate {Name: "John Kelly"}),(rg:Constituency {Name: "Roscommon-Galway"}) CREATE rgc8-[:IN]->rg;
+MATCH (rgc9:Candidate {Name: "Claire Kerrane"}),(rg:Constituency {Name: "Roscommon-Galway"}) CREATE rgc9-[:IN]->rg;
+MATCH (rgc0:Candidate {Name: "Eugene Murphy"}),(rg:Constituency {Name: "Roscommon-Galway"}) CREATE rgc0-[:IN]->rg;
+MATCH (rgc11:Candidate {Name: "Denis Naughten"}),(rg:Constituency {Name: "Roscommon-Galway"}) CREATE rgc11-[:IN]->rg;
+
