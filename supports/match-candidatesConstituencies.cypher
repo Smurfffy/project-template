@@ -211,3 +211,13 @@ MATCH (mec:Candidate {Name: "Aisling O’Neill"}),(me:Constituency {Name: "Meath
 MATCH (mec:Candidate {Name: "Darren O’Rourke"}),(me:Constituency {Name: "Meath East"}) CREATE mec-[:IN]->me;
 MATCH (mec:Candidate {Name: "Sarah Tyrell"}),(me:Constituency {Name: "Meath East"}) CREATE mec-[:IN]->me;
 
+MATCH (mwc:Candidate {Name: "Ray Butler"}),(mw:Constituency {Name: "Meath West"}) CREATE mec-[:IN]->mw;
+MATCH (mwc1:Candidate {Name: "Shane Cassels"}),(mw:Constituency {Name: "Meath West"}) CREATE mec1-[:IN]->mw;
+MATCH (mwc2:Candidate {Name: "Damien English"}),(mw:Constituency {Name: "Meath West"}) CREATE mec2-[:IN]->mw;
+MATCH (mwc3:Candidate {Name: "Trevor Golden"}),(mw:Constituency {Name: "Meath West"}) CREATE mec3-[:IN]->mw;
+MATCH (mwc4:Candidate {Name: "Alan Lawes"}),(mw:Constituency {Name: "Meath West"}) CREATE mec4-[:IN]->mw;
+MATCH (mwc5:Candidate {Name: "John Malone"}),(mw:Constituency {Name: "Meath West"}) CREATE mec5-[:IN]->mw;
+MATCH (mwc6:Candidate {Name: "Tracy McElhinney"}),(mw:Constituency {Name: "Meath West"}) CREATE mec6-[:IN]->mw;
+MATCH (mwc7:Candidate {Name: "Seamus McMenamin"}),(mw:Constituency {Name: "Meath West"}) CREATE mec7-[:IN]->mw;
+MATCH (mwc8:Candidate {Name: "Peadar Tóibín"}),(mw:Constituency {Name: "Meath West"}) CREATE mec8-[:IN]->mw;
+

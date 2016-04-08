@@ -211,4 +211,15 @@ CREATE
 	, (mec9:Candidate {Name: "Aisling O’Neill", Party: "Socail Democrates", info: "NA", gender: "Femalec"})
 	, (mec0:Candidate {Name: "Darren O’Rourke", Party: "Sinn Fine", info: "Counciller", gender: "Male"})
 	, (mec11:Candidate {Name: "Sarah Tyrell", Party: "Renua", info: "NA", gender: "Female"})
+	
+	, (mwc:Candidate {Name: "Ray Butler", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
+	, (mwc1:Candidate {Name: "Shane Cassels", Party: "Fianna Fáil", info: "Counciller", gender: "Male"})
+	, (mwc2:Candidate {Name: "Damien English", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
+	, (mwc3:Candidate {Name: "Trevor Golden", Party: "Independant", info: "NA", gender: "Male"})
+	, (mwc4:Candidate {Name: "Alan Lawes", Party: "Direct Democracy/National Citizens' Movement", info: "NA", gender: "Male"})
+	, (mwc5:Candidate {Name: "John Malone", Party: "Independant", info: "NA", gender: "Male"})
+	, (mwc6:Candidate {Name: "Tracy McElhinney", Party: "Labour", info: "NA", gender: "Female"})
+	, (mwc7:Candidate {Name: "Seamus McMenamin", Party: "Green Party", info: "NA", gender: "Male"})
+	, (mwc8:Candidate {Name: "Peadar Tóibín", Party: "Sinn Fine", info: "Outgoing TD", gender: "Male"})
+	
 ;
