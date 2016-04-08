@@ -233,4 +233,26 @@ MATCH (ofc8:Candidate {Name: "John Leahy"}),(of:Constituency {Name: "Offaly"}) C
 MATCH (ofc9:Candidate {Name: "Carol Nolan"}),(of:Constituency {Name: "Offaly"}) CREATE ofc9-[:IN]->of;
 MATCH (ofc0:Candidate {Name: "Teresa Ryan-Feehan"}),(of:Constituency {Name: "Offaly"}) CREATE ofc0-[:IN]->of;
 
+MATCH (wxc:Candidate {Name: "James Browne"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc-[:IN]->wx;
+MATCH (wxc1:Candidate {Name: "Aoife Byrne"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc1-[:IN]->wx;
+MATCH (wxc2:Candidate {Name: "Malcolm Byrne"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc2-[:IN]->wx;
+MATCH (wxc3:Candidate {Name: "Ger Carthy"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc3-[:IN]->wx;
+MATCH (wxc4:Candidate {Name: "Michael D’Arcy"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc4-[:IN]->wx;
+MATCH (wxc5:Candidate {Name: "Caroline Foxe"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc5-[:IN]->wx;
+MATCH (wxc6:Candidate {Name: "Julie Hogan"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc6-[:IN]->wx;
+MATCH (wxc7:Candidate {Name: "Brendan Howlin"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc7-[:IN]->wx;
+MATCH (wxc8:Candidate {Name: "Paul Kehoe"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc8-[:IN]->wx;
+MATCH (wxc9:Candidate {Name: "Leonard Kelly"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc9-[:IN]->wx;
+MATCH (wxc0:Candidate {Name: "David Lloyd"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc0-[:IN]->wx;
+MATCH (wxc11:Candidate {Name: "Emmet Moloney"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc11-[:IN]->wx;
+MATCH (wxc22:Candidate {Name: "Johnny Mythen"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc22-[:IN]->wx;
+MATCH (wxc33:Candidate {Name: "Paul O’Hanlon"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc33-[:IN]->wx;
+MATCH (wxc44:Candidate {Name: "Deirdre Wadding"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc44-[:IN]->wx;
+MATCH (wxc55:Candidate {Name: "Mick Wallace"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc55-[:IN]->wx;
+MATCH (wxc66:Candidate {Name: "Ann Walsh"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc66-[:IN]->wx;
+
+
+
+
+
 
