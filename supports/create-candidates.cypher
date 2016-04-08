@@ -161,4 +161,14 @@ CREATE
 	, (knc11:Candidate {Name: "Elizabeth O’Sullivan", Party: "Independant", info: "NA", gender: "Female"})
 	, (knc22:Candidate {Name: "Emmet Stagg", Party: "Labour", info: "Outgoing TD", gender: "Male"})
 	, (knc33:Candidate {Name: "Brendan Young", Party: "Independant", info: "Counciller", gender: "Male"})
+	
+	, (ksc:Candidate {Name: "Declan Crowe", Party: "Independant", info: "NA", gender: "Male"})
+	, (ksc1:Candidate {Name: "Martin Heydon", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
+	, (ksc2:Candidate {Name: "Mary Kennedy", Party: "Renua", info: "NA", gender: "Female"})
+	, (ksc3:Candidate {Name: "Suzanne McEneaney", Party: "Green Party", info: "NA", gender: "Female"})
+	, (ksc4:Candidate {Name: "Fiona McLoughlin-Healy", Party: "Fine Gael", info: "Counciller", gender: "Female"})
+	, (ksc5:Candidate {Name: "Seán Ó Fearghail", Party: "Fianna Fáil", info: "Outgoing TD", gender: "Male"})
+	, (ksc6:Candidate {Name: "Fiona O’Loughlin", Party: "Fianna Fáil", info: "Counciller", gender: "Female"})
+	, (ksc7:Candidate {Name: "Patricia Ryan", Party: "Sinn Fine", info: "NA", gender: "Female"})
+	, (ksc8:Candidate {Name: "Mark Wall", Party: "Labour", info: "Counciller", gender: "Male"})
 ;
