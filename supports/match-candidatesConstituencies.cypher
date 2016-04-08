@@ -130,4 +130,21 @@ MATCH (ltc33:Candidate {Name: "Michael O’Dowd"}),(lt:Constituency {Name: "Lout
 MATCH (ltc44:Candidate {Name: "Gareth Weldon"}),(lt:Constituency {Name: "Louth"}) CREATE ltc44-[:IN]->lt;
 MATCH (ltc55:Candidate {Name: "Maeve Yore"}),(lt:Constituency {Name: "Louth"}) CREATE ltc55-[:IN]->lt;
 
+MATCH (ckc1:Candidate {Name: "Bobby Aylward"}),(ck:Constituency {Name: "Carlow-Kilkenny"}) CREATE ckc1-[:IN]->ck;
+MATCH (ckc2:Candidate {Name: "Pat Deering"}),(ck:Constituency {Name: "Carlow-Kilkenny"}) CREATE ckc2-[:IN]->ck;
+MATCH (ckc3:Candidate {Name: "David Fitzgerald"}),(ck:Constituency {Name: "Carlow-Kilkenny"}) CREATE ckc3-[:IN]->ck;
+MATCH (ckc4:Candidate {Name: "Kathleen Funchion"}),(ck:Constituency {Name: "Carlow-Kilkenny"}) CREATE ckc4-[:IN]->ck;
+MATCH (ckc5:Candidate {Name: "Keith Gilligan"}),(ck:Constituency {Name: "Carlow-Kilkenny"}) CREATE ckc5-[:IN]->ck;
+MATCH (ckc6:Candidate {Name: "Conor Mac Liam"}),(ck:Constituency {Name: "Carlow-Kilkenny"}) CREATE ckc6-[:IN]->ck;
+MATCH (ckc7:Candidate {Name: "John McGuinness"}),(ck:Constituency {Name: "Carlow-Kilkenny"}) CREATE ckc7-[:IN]->ck;
+MATCH (ckc8:Candidate {Name: "Paddy Manning"}),(ck:Constituency {Name: "Carlow-Kilkenny"}) CREATE ckc8-[:IN]->ck;
+MATCH (ckc9:Candidate {Name: "Patrick McKee"}),(ck:Constituency {Name: "Carlow-Kilkenny"}) CREATE ckc9-[:IN]->ck;
+MATCH (ckc0:Candidate {Name: "Jennifer Murnane O’Connor"}),(ck:Constituency {Name: "Carlow-Kilkenny"}) CREATE ckc0-[:IN]->ck;
+MATCH (ckc11:Candidate {Name: "Malcolm Noonan"}),(ck:Constituency {Name: "Carlow-Kilkenny"}) CREATE ckc11-[:IN]->ck;
+MATCH (ckc22:Candidate {Name: "Ann Phelan"}),(ck:Constituency {Name: "Carlow-Kilkenny"}) CREATE ckc22-[:IN]->ck;
+MATCH (ckc33:Candidate {Name: "John Paul Phelan"}),(ck:Constituency {Name: "Carlow-Kilkenny"}) CREATE ckc33-[:IN]->ck;
+MATCH (ckc44:Candidate {Name: "Adrienne Wallace"}),(ck:Constituency {Name: "Carlow-Kilkenny"}) CREATE ckc44-[:IN]->ck;
+MATCH (ckc55:Candidate {Name: "Noel Walsh"}),(ck:Constituency {Name: "Carlow-Kilkenny"}) CREATE ckc55-[:IN]->ck;
+
+
 
