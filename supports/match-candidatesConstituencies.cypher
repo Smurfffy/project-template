@@ -268,6 +268,23 @@ MATCH (ww33:Candidate {Name: "Charlie Keddy"}),(ww:Constituency {Name: "Wicklow"
 MATCH (ww44:Candidate {Name: "Steven Matthews"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww44-[:IN]->ww;
 MATCH (ww55:Candidate {Name: "Billy Timmins"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww55-[:IN]->ww;
 
+MATCH (clc:Candidate {Name: "Pat Breen"}),(cl:Constituency {Name: "Clare"}) CREATE clc-[:IN]->cl;
+MATCH (clc1:Candidate {Name: "Joe Carey"}),(cl:Constituency {Name: "Clare"}) CREATE clc1-[:IN]->cl;
+MATCH (clc2:Candidate {Name: "Richard Cahill"}),(cl:Constituency {Name: "Clare"}) CREATE clc2-[:IN]->cl;
+MATCH (clc3:Candidate {Name: "Clare Colleran Molloy"}),(cl:Constituency {Name: "Clare"}) CREATE clc3-[:IN]->cl;
+MATCH (clc4:Candidate {Name: "Timmy Dooley"}),(cl:Constituency {Name: "Clare"}) CREATE clc4-[:IN]->cl;
+MATCH (clc5:Candidate {Name: "Michael Harty"}),(cl:Constituency {Name: "Clare"}) CREATE clc5-[:IN]->cl;
+MATCH (clc6:Candidate {Name: "Mary Howard"}),(cl:Constituency {Name: "Clare"}) CREATE clc6-[:IN]->cl;
+MATCH (clc7:Candidate {Name: "Ian Lynch"}),(cl:Constituency {Name: "Clare"}) CREATE clc7-[:IN]->cl;
+MATCH (clc8:Candidate {Name: "Michael McDonagh"}),(cl:Constituency {Name: "Clare"}) CREATE clc8-[:IN]->cl;
+MATCH (clc9:Candidate {Name: "Michael McNamara"}),(cl:Constituency {Name: "Clare"}) CREATE clc9-[:IN]->cl;
+MATCH (clc0:Candidate {Name: "Noeleen Moran"}),(cl:Constituency {Name: "Clare"}) CREATE clc0-[:IN]->cl;
+MATCH (clc11:Candidate {Name: "Dermot Mulqueen"}),(cl:Constituency {Name: "Clare"}) CREATE clc11-[:IN]->cl;
+MATCH (clc22:Candidate {Name: "Anne Norton"}),(cl:Constituency {Name: "Clare"}) CREATE clc22-[:IN]->cl;
+MATCH (clc33:Candidate {Name: "Niamh O’Brien"}),(cl:Constituency {Name: "Clare"}) CREATE clc33-[:IN]->cl;
+MATCH (clc44:Candidate {Name: "André Sibo Hakizimana"}),(cl:Constituency {Name: "Clare"}) CREATE clc44-[:IN]->cl;
+MATCH (clc55:Candidate {Name: "Fergal Smith"}),(cl:Constituency {Name: "Clare"}) CREATE clc55-[:IN]->cl;
+
 
 
 
