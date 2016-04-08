@@ -1867,3 +1867,23 @@ RETURN r;
 2016-04-08 15:02:50.950+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [158]:  Check pointing completed
 2016-04-08 15:02:50.953+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
 2016-04-08 15:02:50.956+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-08 15:07:50.976+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [160]:  Starting check pointing...
+2016-04-08 15:07:50.986+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [160]:  Starting store flush...
+2016-04-08 15:07:50.997+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 160 to [C:\Users\User\Documents\GitHub\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\User\Documents\GitHub\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-08 15:07:51.010+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 160 to [C:\Users\User\Documents\GitHub\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\User\Documents\GitHub\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-08 15:07:51.131+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [160]:  Store flush completed
+2016-04-08 15:07:51.135+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [160]:  Starting appending check point entry into the tx log...
+2016-04-08 15:07:51.174+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [160]:  Appending check point entry into the tx log completed
+2016-04-08 15:07:51.178+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [160]:  Check pointing completed
+2016-04-08 15:07:51.182+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-08 15:07:51.186+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-08 15:13:41.213+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [161]:  Starting check pointing...
+2016-04-08 15:13:41.219+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [161]:  Starting store flush...
+2016-04-08 15:13:41.334+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 161 to [C:\Users\User\Documents\GitHub\project-template\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\User\Documents\GitHub\project-template\constituencies.graphdb\neostore.counts.db.b].
+2016-04-08 15:13:41.348+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 161 to [C:\Users\User\Documents\GitHub\project-template\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\User\Documents\GitHub\project-template\constituencies.graphdb\neostore.counts.db.b].
+2016-04-08 15:13:41.443+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [161]:  Store flush completed
+2016-04-08 15:13:41.446+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [161]:  Starting appending check point entry into the tx log...
+2016-04-08 15:13:41.466+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [161]:  Appending check point entry into the tx log completed
+2016-04-08 15:13:41.469+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [161]:  Check pointing completed
+2016-04-08 15:13:41.472+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-08 15:13:41.475+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
