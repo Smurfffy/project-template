@@ -178,5 +178,24 @@ MATCH (lsc3:Candidate {Name: "Sinead Moore"}),(ls:Constituency {Name: "Laois"}) 
 MATCH (lsc4:Candidate {Name: "Brian Stanley"}),(ls:Constituency {Name: "Laois"}) CREATE lsc4-[:IN]->ls;
 MATCH (lsc5:Candidate {Name: "John Whelan"}),(ls:Constituency {Name: "Laois"}) CREATE lsc5-[:IN]->ls;
 
+MATCH (lwc:Candidate {Name: "James Bannon"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc-[:IN]->lw;
+MATCH (lwc1:Candidate {Name: "Peter Burke"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc1-[:IN]->lw;
+MATCH (lwc2:Candidate {Name: "Brian Fagan"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc2-[:IN]->lw;
+MATCH (lwc3:Candidate {Name: "Stephanie Healy"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc3-[:IN]->lw;
+MATCH (lwc4:Candidate {Name: "Paul Hogan"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc4-[:IN]->lw;
+MATCH (lwc5:Candidate {Name: "Donal Jackson"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc5-[:IN]->lw;
+MATCH (lwc6:Candidate {Name: "Frank Kilbride"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc6-[:IN]->lw;
+MATCH (lwc7:Candidate {Name: "Manchán Magan"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc7-[:IN]->lw;
+MATCH (lwc8:Candidate {Name: "Gabrielle McFadden"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc8-[:IN]->lw;
+MATCH (lwc9:Candidate {Name: "Noel McKervey"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc9-[:IN]->lw;
+MATCH (lwc0:Candidate {Name: "James Miller"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc0-[:IN]->lw;
+MATCH (lwc11:Candidate {Name: "Kevin Moran"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc11-[:IN]->lw;
+MATCH (lwc22:Candidate {Name: "James Morgan"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc22-[:IN]->lw;
+MATCH (lwc33:Candidate {Name: "Dom Parker"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc33-[:IN]->lw;
+MATCH (lwc44:Candidate {Name: "Willie Penrose"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc44-[:IN]->lw;
+MATCH (lwc55:Candidate {Name: "Connie Gerrity Quinn"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc55-[:IN]->lw;
+MATCH (lwc66:Candidate {Name: "Mae Sexton"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc66-[:IN]->lw;
+MATCH (lwc77:Candidate {Name: "Barbara Smyth"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc77-[:IN]->lw;
+MATCH (lwc88:Candidate {Name: "Robert Troy"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc88-[:IN]->lw;
 
 

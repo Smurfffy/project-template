@@ -198,4 +198,17 @@ CREATE
 	, (lwc66:Candidate {Name: "Mae Sexton", Party: "Independant", info: "Former TD", gender: "Female"})
 	, (lwc77:Candidate {Name: "Barbara Smyth", Party: "Independant", info: "NA", gender: "Female"})
 	, (lwc88:Candidate {Name: "Robert Troy", Party: "Fianna Fáil", info: "Outgoing TD", gender: "Male"})
+	
+	, (mec:Candidate {Name: "Joe Bonner", Party: "Independant", info: "NA", gender: "Male"})
+	, (mec1:Candidate {Name: "Thomas Byrne", Party: "Fianna Fáil", info: "Senator", gender: "Male"})
+	, (mec2:Candidate {Name: "Regina Doherty", Party: "Fine Gael", info: "Outgoing TD", gender: "Female"})
+	, (mec3:Candidate {Name: "Ben Gilroy", Party: "Direct Democracy/National Citizens' Movement", info: "NA", gender: "Male"})
+	, (mec4:Candidate {Name: "Dominic Hannigan", Party: "Labour", info: "Outgoing TD", gender: "Male"})
+	, (mec5:Candidate {Name: "Sharon Keogan", Party: "Independant", info: "NA", gender: "Female"})
+	, (mec6:Candidate {Name: "Seamus McDonagh", Party: "Workers' Party", info: "NA", gender: "Male"})
+	, (mec7:Candidate {Name: "Helen McEntee", Party: "Fine Gael", info: "Outgoing TD", gender: "Female"})
+	, (mec8:Candidate {Name: "Seán Ó Buachalla", Party: "Green Party#", info: "NA", gender: "Male"})
+	, (mec9:Candidate {Name: "Aisling O’Neill", Party: "Socail Democrates", info: "NA", gender: "Femalec"})
+	, (mec0:Candidate {Name: "Darren O’Rourke", Party: "Sinn Fine", info: "Counciller", gender: "Male"})
+	, (mec11:Candidate {Name: "Sarah Tyrell", Party: "Renua", info: "NA", gender: "Female"})
 ;
