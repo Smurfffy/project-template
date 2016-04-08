@@ -198,4 +198,16 @@ MATCH (lwc66:Candidate {Name: "Mae Sexton"}),(lw:Constituency {Name: "Longford-W
 MATCH (lwc77:Candidate {Name: "Barbara Smyth"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc77-[:IN]->lw;
 MATCH (lwc88:Candidate {Name: "Robert Troy"}),(lw:Constituency {Name: "Longford-Westmeath"}) CREATE lwc88-[:IN]->lw;
 
+MATCH (mec:Candidate {Name: "Joe Bonner"}),(me:Constituency {Name: "Meath East"}) CREATE mec-[:IN]->me;
+MATCH (mec:Candidate {Name: "Thomas Byrne"}),(me:Constituency {Name: "Meath East"}) CREATE mec-[:IN]->me;
+MATCH (mec:Candidate {Name: "Regina Doherty"}),(me:Constituency {Name: "Meath East"}) CREATE mec-[:IN]->me;
+MATCH (mec:Candidate {Name: "Ben Gilroy"}),(me:Constituency {Name: "Meath East"}) CREATE mec-[:IN]->me;
+MATCH (mec:Candidate {Name: "Dominic Hannigan"}),(me:Constituency {Name: "Meath East"}) CREATE mec-[:IN]->me;
+MATCH (mec:Candidate {Name: "Sharon Keogan"}),(me:Constituency {Name: "Meath East"}) CREATE mec-[:IN]->me;
+MATCH (mec:Candidate {Name: "Seamus McDonagh"}),(me:Constituency {Name: "Meath East"}) CREATE mec-[:IN]->me;
+MATCH (mec:Candidate {Name: "Helen McEntee"}),(me:Constituency {Name: "Meath East"}) CREATE mec-[:IN]->me;
+MATCH (mec:Candidate {Name: "Seán Ó Buachalla"}),(me:Constituency {Name: "Meath East"}) CREATE mec-[:IN]->me;
+MATCH (mec:Candidate {Name: "Aisling O’Neill"}),(me:Constituency {Name: "Meath East"}) CREATE mec-[:IN]->me;
+MATCH (mec:Candidate {Name: "Darren O’Rourke"}),(me:Constituency {Name: "Meath East"}) CREATE mec-[:IN]->me;
+MATCH (mec:Candidate {Name: "Sarah Tyrell"}),(me:Constituency {Name: "Meath East"}) CREATE mec-[:IN]->me;
 
