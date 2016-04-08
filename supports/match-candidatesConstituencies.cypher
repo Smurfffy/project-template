@@ -251,6 +251,24 @@ MATCH (wxc44:Candidate {Name: "Deirdre Wadding"}),(wx:Constituency {Name: "Wexfo
 MATCH (wxc55:Candidate {Name: "Mick Wallace"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc55-[:IN]->wx;
 MATCH (wxc66:Candidate {Name: "Ann Walsh"}),(wx:Constituency {Name: "Wexford"}) CREATE wxc66-[:IN]->wx;
 
+MATCH (ww:Candidate {Name: "Joe Behan"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww-[:IN]->ww;
+MATCH (ww1:Candidate {Name: "John Brady"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww1-[:IN]->ww;
+MATCH (ww2:Candidate {Name: "Sharon Briggs"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww2-[:IN]->ww;
+MATCH (ww3:Candidate {Name: "Pat Casey"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww3-[:IN]->ww;
+MATCH (ww4:Candidate {Name: "Avril Cronin"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww4-[:IN]->ww;
+MATCH (ww5:Candidate {Name: "Jennifer Cuffe"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww5-[:IN]->ww;
+MATCH (ww6:Candidate {Name: "Stephen Donnelly"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww6-[:IN]->ww;
+MATCH (ww7:Candidate {Name: "Andrew Doyle"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww7-[:IN]->ww;
+MATCH (ww8:Candidate {Name: "Anna Doyle"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww8-[:IN]->ww;
+MATCH (ww9:Candidate {Name: "Anne Ferris"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww9-[:IN]->ww;
+MATCH (ww0:Candidate {Name: "Simon Harris"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww0-[:IN]->ww;
+MATCH (ww11:Candidate {Name: "Katrina Hutchinson"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww11-[:IN]->ww;
+MATCH (ww22:Candidate {Name: "Bob Kearns"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww22-[:IN]->ww;
+MATCH (ww33:Candidate {Name: "Charlie Keddy"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww33-[:IN]->ww;
+MATCH (ww44:Candidate {Name: "Steven Matthews"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww44-[:IN]->ww;
+MATCH (ww55:Candidate {Name: "Billy Timmins"}),(ww:Constituency {Name: "Wicklow"}) CREATE ww55-[:IN]->ww;
+
+
 
 
 
