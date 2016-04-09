@@ -448,3 +448,18 @@ MATCH (dbnc66:Candidate {Name: "Damien O’Neill"}),(dbn:Constituency {Name: "D 
 MATCH (dbnc77:Candidate {Name: "Aodhán Ó Riordáin"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc77-[:IN]->dbn;
 MATCH (dbnc88:Candidate {Name: "Averil Power"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc88-[:IN]->dbn;
 MATCH (dbnc99:Candidate {Name: "Stephanie Regan"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc99-[:IN]->dbn;
+
+MATCH (dbsc:Candidate {Name: "Chris Andrews"}),(dbs:Constituency {Name: "D Bay South"}) CREATE dbsc-[:IN]->dbs;
+MATCH (dbsc1:Candidate {Name: "Lucinda Creighton"}),(dbs:Constituency {Name: "D Bay South"}) CREATE dbsc1-[:IN]->dbs;
+MATCH (dbsc2:Candidate {Name: "William D.J. Gorman"}),(dbs:Constituency {Name: "D Bay South"}) CREATE dbsc2-[:IN]->dbs;
+MATCH (dbsc3:Candidate {Name: "Mannix Flynn"}),(dbs:Constituency {Name: "D Bay South"}) CREATE dbsc3-[:IN]->dbs;
+MATCH (dbsc4:Candidate {Name: "Kevin Humphreys"}),(dbs:Constituency {Name: "D Bay South"}) CREATE dbsc4-[:IN]->dbs;
+MATCH (dbsc5:Candidate {Name: "John Dominic Keigher"}),(dbs:Constituency {Name: "D Bay South"}) CREATE dbsc5-[:IN]->dbs;
+MATCH (dbsc6:Candidate {Name: "Glenna Lynch"}),(dbs:Constituency {Name: "D Bay South"}) CREATE dbsc6-[:IN]->dbs;
+MATCH (dbsc7:Candidate {Name: "Alan MacStiofán"}),(dbs:Constituency {Name: "D Bay South"}) CREATE dbsc7-[:IN]->dbs;
+MATCH (dbsc8:Candidate {Name: "Annette Mooney"}),(dbs:Constituency {Name: "D Bay South"}) CREATE dbsc8-[:IN]->dbs;
+MATCH (dbsc9:Candidate {Name: "Eoghan Murphy"}),(dbs:Constituency {Name: "D Bay South"}) CREATE dbsc9-[:IN]->dbs;
+MATCH (dbsc0:Candidate {Name: "Jim O’Callaghan"}),(dbs:Constituency {Name: "D Bay South"}) CREATE dbsc0-[:IN]->dbs;
+MATCH (dbsc11:Candidate {Name: "Kate O’Connell"}),(dbs:Constituency {Name: "D Bay South"}) CREATE dbsc11-[:IN]->dbs;
+MATCH (dbsc22:Candidate {Name: "Eamon Ryan"}),(dbs:Constituency {Name: "D Bay South"}) CREATE dbsc22-[:IN]->dbs;
+MATCH (dbsc33:Candidate {Name: "Eoin Tierney"}),(dbs:Constituency {Name: "D Bay South"}) CREATE dbsc33-[:IN]->dbs;
