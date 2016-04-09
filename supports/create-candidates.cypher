@@ -524,4 +524,15 @@ CREATE
 	, (dnwc8:Candidate {Name: "Noel Rock", Party: "Fine Gael", info: "Counciller", gender: "Male"})
 	, (dnwc9:Candidate {Name: "Róisín Shortall", Party: "Socail Democrates", info: "Outgoing TD", gender: "Female"})
 	, (dnwc0:Candidate {Name: "Cormac McKay", Party: "Direct Democracy/National Citizens' Movement", info: "NA", gender: "Male"})
+	
+	, (drc:Candidate {Name: "Alan Daveron", Party: "Renua", info: "NA", gender: "Male"})
+	, (drc1:Candidate {Name: "Josepha Madigan", Party: "Fine Gael", info: "Counciller", gender: "Male"})
+	, (drc2:Candidate {Name: "Catherine Martin", Party: "Green Party", info: "NA", gender: "Female"})
+	, (drc3:Candidate {Name: "Peter Mathews", Party: "Independant", info: "Outgoing TD", gender: "Male"})
+	, (drc4:Candidate {Name: "Sorcha Nic Cormaic", Party: "Sinn Fine", info: "NA", gender: "Female"})
+	, (drc5:Candidate {Name: "Patrick O’Connell", Party: "Independant", info: "NA", gender: "Male"})
+	, (drc6:Candidate {Name: "Shane Ross", Party: "Independant", info: "Outgoing TD", gender: "Male"})
+	, (drc7:Candidate {Name: "Alan Shatter", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
+	, (drc8:Candidate {Name: "Alex White", Party: "Labour", info: "Outgoing TD", gender: "Male"})
+	, (drc9:Candidate {Name: "Mary White", Party: "Fianna Fáil", info: "Senator", gender: "Male"})
 ;

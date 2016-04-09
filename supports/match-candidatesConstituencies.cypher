@@ -523,3 +523,14 @@ MATCH (dnwc7:Candidate {Name: "Paul McAuliffe"}),(dnw:Constituency {Name: "D Nor
 MATCH (dnwc8:Candidate {Name: "Noel Rock"}),(dnw:Constituency {Name: "D North West"}) CREATE dnwc8-[:IN]->dnw;
 MATCH (dnwc9:Candidate {Name: "Róisín Shortall"}),(dnw:Constituency {Name: "D North West"}) CREATE dnwc9-[:IN]->dnw;
 MATCH (dnwc0:Candidate {Name: "Cormac McKay"}),(dnw:Constituency {Name: "D North West"}) CREATE dnwc0-[:IN]->dnw;
+
+MATCH (drc:Candidate {Name: "Alan Daveron"}),(dr:Constituency {Name: "D Rathdown"}) CREATE drc-[:IN]->dr;
+MATCH (drc1:Candidate {Name: "Josepha Madigan"}),(dr:Constituency {Name: "D Rathdown"}) CREATE drc1-[:IN]->dr;
+MATCH (drc2:Candidate {Name: "Catherine Martin"}),(dr:Constituency {Name: "D Rathdown"}) CREATE drc2-[:IN]->dr;
+MATCH (drc3:Candidate {Name: "Peter Mathews"}),(dr:Constituency {Name: "D Rathdown"}) CREATE drc3-[:IN]->dr;
+MATCH (drc4:Candidate {Name: "Sorcha Nic Cormaic"}),(dr:Constituency {Name: "D Rathdown"}) CREATE drc4-[:IN]->dr;
+MATCH (drc5:Candidate {Name: "Patrick O’Connell"}),(dr:Constituency {Name: "D Rathdown"}) CREATE drc5-[:IN]->dr;
+MATCH (drc6:Candidate {Name: "Shane Ross"}),(dr:Constituency {Name: "D Rathdown"}) CREATE drc6-[:IN]->dr;
+MATCH (drc7:Candidate {Name: "Alan Shatter"}),(dr:Constituency {Name: "D Rathdown"}) CREATE drc7-[:IN]->dr;
+MATCH (drc8:Candidate {Name: "Alex White"}),(dr:Constituency {Name: "D Rathdown"}) CREATE drc8-[:IN]->dr;
+MATCH (drc9:Candidate {Name: "Mary White"}),(dr:Constituency {Name: "D Rathdown"}) CREATE drc9-[:IN]->dr;
