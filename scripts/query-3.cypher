@@ -1,4 +1,4 @@
-// This query tells the user how many candidates from Fine Gael ran in the Dublin are
+// This query tells the user how many candidates from Fine Gael ran in the Dublin
 
 
 MATCH
