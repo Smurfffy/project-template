@@ -2,10 +2,14 @@
 ###### Alan Murphy, G00312295
 
 ## Introduction
-Give a summary here of what your project is about.
+In this project I set out to create a database which contains all election candidates and constituencies for the past 2016 general election. I used neo4j to create a graph database and with the database created try cypher queries that could be run on the database to display certain information.
 
 ## Database
-Explain how you created your database, and how information is represented in it.
+I created the database using neo4j. Candidates and Constituencies were created using cyper queries. Each candidate nodehad certain information stored about the candidate in them. The cyper code used to create candidates was eg.
+```cypher
+CREATE (dgc:Candidate {Name: "Gary Doherty", Party: "Sinn Féin", info: "Counciller", gender: "Male"});
+```
+So a candidate node contains the candidates nae, which Party they ran in , extra infomation such as if they are a counciller, outgoing TD etc and their gender.
 
 ## Queries
 Summarise your three queries here.
