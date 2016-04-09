@@ -511,3 +511,15 @@ MATCH (dmw11:Candidate {Name: "Eoin Ó Broin"}),(dmw:Constituency {Name: "D Mid-
 MATCH (dmw22:Candidate {Name: "Tom Kivlehan"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw22-[:IN]->dmw;
 MATCH (dmw33:Candidate {Name: "Francis Timmons"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw33-[:IN]->dmw;
 MATCH (dmw44:Candidate {Name: "Joanna Tuffy"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw44-[:IN]->dmw;
+
+MATCH (dnwc:Candidate {Name: "Cathleen Carney Boud"}),(dnw:Constituency {Name: "D North West"}) CREATE dnwc-[:IN]->dnw;
+MATCH (dnwc1:Candidate {Name: "Caroline Conroy"}),(dnw:Constituency {Name: "D North West"}) CREATE dnwc1-[:IN]->dnw;
+MATCH (dnwc2:Candidate {Name: "Jimmy Dignam"}),(dnw:Constituency {Name: "D North West"}) CREATE dnwc2-[:IN]->dnw;
+MATCH (dnwc3:Candidate {Name: "Dessie Ellis"}),(dnw:Constituency {Name: "D North West"}) CREATE dnwc3-[:IN]->dnw;
+MATCH (dnwc4:Candidate {Name: "Bernie Hughes"}),(dnw:Constituency {Name: "D North West"}) CREATE dnwc4-[:IN]->dnw;
+MATCH (dnwc5:Candidate {Name: "Andrew Keegan"}),(dnw:Constituency {Name: "D North West"}) CREATE dnwc5-[:IN]->dnw;
+MATCH (dnwc6:Candidate {Name: "John Lyons"}),(dnw:Constituency {Name: "D North West"}) CREATE dnwc6-[:IN]->dnw;
+MATCH (dnwc7:Candidate {Name: "Paul McAuliffe"}),(dnw:Constituency {Name: "D North West"}) CREATE dnwc7-[:IN]->dnw;
+MATCH (dnwc8:Candidate {Name: "Noel Rock"}),(dnw:Constituency {Name: "D North West"}) CREATE dnwc8-[:IN]->dnw;
+MATCH (dnwc9:Candidate {Name: "Róisín Shortall"}),(dnw:Constituency {Name: "D North West"}) CREATE dnwc9-[:IN]->dnw;
+MATCH (dnwc0:Candidate {Name: "Cormac McKay"}),(dnw:Constituency {Name: "D North West"}) CREATE dnwc0-[:IN]->dnw;
