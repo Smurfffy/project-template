@@ -377,4 +377,15 @@ MATCH (kyc33:Candidate {Name: "Grace O’Donnell"}),(ky:Constituency {Name: "Ker
 MATCH (kyc44:Candidate {Name: "Michael O’Gorman"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc44-[:IN]->ky;
 MATCH (kyc55:Candidate {Name: "Arthur Spring"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc55-[:IN]->ky;
 
+MATCH (lcyc:Candidate {Name: "Nora Bennis"}),(lcy:Constituency {Name: "Limerick City"}) CREATE lcyc-[:IN]->lcy;
+MATCH (lcyc1:Candidate {Name: "James Gaffney"}),(lcy:Constituency {Name: "Limerick City"}) CREATE lcyc1-[:IN]->lcy;
+MATCH (lcyc2:Candidate {Name: "Desmond Hayes"}),(lcy:Constituency {Name: "Limerick City"}) CREATE lcyc2-[:IN]->lcy;
+MATCH (lcyc3:Candidate {Name: "Sarah Jane Hennelly"}),(lcy:Constituency {Name: "Limerick City"}) CREATE lcyc3-[:IN]->lcy;
+MATCH (lcyc4:Candidate {Name: "Michael Noonan"}),(lcy:Constituency {Name: "Limerick City"}) CREATE lcyc4-[:IN]->lcy;
+MATCH (lcyc5:Candidate {Name: "Willie O’Dea"}),(lcy:Constituency {Name: "Limerick City"}) CREATE lcyc5-[:IN]->lcy;
+MATCH (lcyc6:Candidate {Name: "Kieran O’Donnell"}),(lcy:Constituency {Name: "Limerick City"}) CREATE lcyc6-[:IN]->lcy;
+MATCH (lcyc7:Candidate {Name: "Jan O’Sullivan"}),(lcy:Constituency {Name: "Limerick City"}) CREATE lcyc7-[:IN]->lcy;
+MATCH (lcyc8:Candidate {Name: "Cian Prendeville"}),(lcy:Constituency {Name: "Limerick City"}) CREATE lcyc8-[:IN]->lcy;
+MATCH (lcyc9:Candidate {Name: "Maurice Quinlivan"}),(lcy:Constituency {Name: "Limerick City"}) CREATE lcyc9-[:IN]->lcy;
+MATCH (lcyc0:Candidate {Name: "Denis Riordan"}),(lcy:Constituency {Name: "Limerick City"}) CREATE lcyc0-[:IN]->lcy;
 
