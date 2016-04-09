@@ -463,3 +463,19 @@ MATCH (dbsc0:Candidate {Name: "Jim O’Callaghan"}),(dbs:Constituency {Name: "D 
 MATCH (dbsc11:Candidate {Name: "Kate O’Connell"}),(dbs:Constituency {Name: "D Bay South"}) CREATE dbsc11-[:IN]->dbs;
 MATCH (dbsc22:Candidate {Name: "Eamon Ryan"}),(dbs:Constituency {Name: "D Bay South"}) CREATE dbsc22-[:IN]->dbs;
 MATCH (dbsc33:Candidate {Name: "Eoin Tierney"}),(dbs:Constituency {Name: "D Bay South"}) CREATE dbsc33-[:IN]->dbs;
+
+MATCH (dcc:Candidate {Name: "Christy Burke"}),(dc:Constituency {Name: "D Central"}) CREATE dcc-[:IN]->dc;
+MATCH (dcc1:Candidate {Name: "Joe Costello"}),(dc:Constituency {Name: "D Central"}) CREATE dcc1-[:IN]->dc;
+MATCH (dcc2:Candidate {Name: "Paschal Donohoe"}),(dc:Constituency {Name: "D Central"}) CREATE dcc2-[:IN]->dc;
+MATCH (dcc3:Candidate {Name: "Mary Fitzpatrick"}),(dc:Constituency {Name: "D Central"}) CREATE dcc3-[:IN]->dc;
+MATCH (dcc4:Candidate {Name: "Gary Gannon"}),(dc:Constituency {Name: "D Central"}) CREATE dcc4-[:IN]->dc;
+MATCH (dcc5:Candidate {Name: "Jacqui Gilbourne"}),(dc:Constituency {Name: "D Central"}) CREATE dcc5-[:IN]->dc;
+MATCH (dcc6:Candidate {Name: "William D.J. Gorman"}),(dc:Constituency {Name: "D Central"}) CREATE dcc6-[:IN]->dc;
+MATCH (dcc7:Candidate {Name: "Kerry Guinan"}),(dc:Constituency {Name: "D Central"}) CREATE dcc7-[:IN]->dc;
+MATCH (dcc8:Candidate {Name: "Mary Lou McDonald"}),(dc:Constituency {Name: "D Central"}) CREATE dcc8-[:IN]->dc;
+MATCH (dcc9:Candidate {Name: "Cormac McKay"}),(dc:Constituency {Name: "D Central"}) CREATE dcc9-[:IN]->dc;
+MATCH (dcc0:Candidate {Name: "Diana O’Dwyer"}),(dc:Constituency {Name: "D Central"}) CREATE dcc0-[:IN]->dc;
+MATCH (dcc11:Candidate {Name: "Maureen O’Sullivan"}),(dc:Constituency {Name: "D Central"}) CREATE dcc11-[:IN]->dc;
+MATCH (dcc22:Candidate {Name: "Cieran Perry"}),(dc:Constituency {Name: "D Central"}) CREATE dcc22-[:IN]->dc;
+MATCH (dcc33:Candidate {Name: "Eilís Ryan"}),(dc:Constituency {Name: "D Central"}) CREATE dcc33-[:IN]->dc;
+MATCH (dcc44:Candidate {Name: "Ian Noel Smyth"}),(dc:Constituency {Name: "D Central"}) CREATE dcc44-[:IN]->dc;
