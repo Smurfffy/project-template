@@ -360,4 +360,23 @@ CREATE
 	, (cswc8:Candidate {Name: "Fiona O’Leary", Party: "Independant", info: "NA", gender: "Female"})
 	, (cswc9:Candidate {Name: "Johnny O’Mahony", Party: "Green Party", info: "NA", gender: "Male"})
 	, (cswc0:Candidate {Name: "Gillian Powell", Party: "Independant", info: "NA", gender: "Male"})
+	
+	, (kyc:Candidate {Name: "John Brassil", Party: "Fianna Fáil", info: "Counciller", gender: "Male"})
+	, (kyc1:Candidate {Name: "Donal Corcoran", Party: "Renua", info: "NA", gender: "Male"})
+	, (kyc2:Candidate {Name: "Jimmy Deenihan", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
+	, (kyc3:Candidate {Name: "Martin Ferris", Party: "Sinn Fine", info: "Outgoing TD", gender: "Male"})
+	, (kyc4:Candidate {Name: "Brian Finucane", Party: "AAA", info: "NA", gender: "Male"})
+	, (kyc5:Candidate {Name: "Michael Fitzgerald", Party: "Green Party", info: "NA", gender: "Male"})
+	, (kyc6:Candidate {Name: "Mary E. Fitzgibbon", Party: "Independant", info: "NA", gender: "Female"})
+	, (kyc7:Candidate {Name: "Henry Gaynor", Party: "Independant", info: "NA", gender: "Male"})
+	, (kyc8:Candidate {Name: "Brendan Griffin", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
+	, (kyc9:Candidate {Name: "Danny Healy Rae", Party: "Independant", info: "Counciller", gender: "Male"})
+	, (kyc0:Candidate {Name: "Michael Healy Rae", Party: "Independant", info: "Outgoing TD", gender: "Male"})
+	, (kyc11:Candidate {Name: "Norma Moriarty", Party: "Fianna Fáil", info: "Counciller", gender: "Female"})
+	, (kyc22:Candidate {Name: "Kevin Murphy", Party: "Independant", info: "NA", gender: "Male"})
+	, (kyc33:Candidate {Name: "Grace O’Donnell", Party: "Fine Gael", info: "NA", gender: "Female"})
+	, (kyc44:Candidate {Name: "Michael O’Gorman", Party: "Independant", info: "NA", gender: "Male"})
+	, (kyc55:Candidate {Name: "Arthur Spring", Party: "Labour", info: "Outgoing TD", gender: "Male"})
+	
+	
 ;
