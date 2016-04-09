@@ -495,3 +495,19 @@ MATCH (dfc11:Candidate {Name: "Louise O’Reilly"}),(df:Constituency {Name: "D F
 MATCH (dfc22:Candidate {Name: "Gerry Molloy"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc22-[:IN]->df;
 MATCH (dfc33:Candidate {Name: "James Reilly"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc33-[:IN]->df;
 MATCH (dfc44:Candidate {Name: "Brendan Ryan"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc44-[:IN]->df;
+
+MATCH (dmw:Candidate {Name: "Patrick Akpoveta"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw-[:IN]->dmw;
+MATCH (dmw1:Candidate {Name: "John Curran"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw1-[:IN]->dmw;
+MATCH (dmw2:Candidate {Name: "Frances Fitzgerald"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw2-[:IN]->dmw;
+MATCH (dmw3:Candidate {Name: "Paul Gogarty"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw3-[:IN]->dmw;
+MATCH (dmw4:Candidate {Name: "Christopher Healy"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw4-[:IN]->dmw;
+MATCH (dmw5:Candidate {Name: "Lorraine Hennessy"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw5-[:IN]->dmw;
+MATCH (dmw6:Candidate {Name: "Haroon Khan"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw6-[:IN]->dmw;
+MATCH (dmw7:Candidate {Name: "Clare Leonard"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw7-[:IN]->dmw;
+MATCH (dmw8:Candidate {Name: "Derek Keating"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw8-[:IN]->dmw;
+MATCH (dmw9:Candidate {Name: "Gino Kenny"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw9-[:IN]->dmw;
+MATCH (dmw0:Candidate {Name: "Anne-Marie McNally"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw0-[:IN]->dmw;
+MATCH (dmw11:Candidate {Name: "Eoin Ó Broin"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw11-[:IN]->dmw;
+MATCH (dmw22:Candidate {Name: "Tom Kivlehan"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw22-[:IN]->dmw;
+MATCH (dmw33:Candidate {Name: "Francis Timmons"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw33-[:IN]->dmw;
+MATCH (dmw44:Candidate {Name: "Joanna Tuffy"}),(dmw:Constituency {Name: "D Mid-West"}) CREATE dmw44-[:IN]->dmw;
