@@ -512,4 +512,16 @@ CREATE
 	, (dmw22:Candidate {Name: "Tom Kivlehan", Party: "Green Party", info: "NA", gender: "Male"})
 	, (dmw33:Candidate {Name: "Francis Timmons", Party: "Independant", info: "NA", gender: "Male"})
 	, (dmw44:Candidate {Name: "Joanna Tuffy", Party: "Labour", info: "Outgoing TD", gender: "Female"})
+	
+	, (dnwc:Candidate {Name: "Cathleen Carney Boud", Party: "Sinn Fine", info: "Counciller", gender: "Female"})
+	, (dnwc1:Candidate {Name: "Caroline Conroy", Party: "Green Party", info: "NA", gender: "Female"})
+	, (dnwc2:Candidate {Name: "Jimmy Dignam", Party: "Workers Party", info: "NA", gender: "Male"})
+	, (dnwc3:Candidate {Name: "Dessie Ellis", Party: "Sinn Fine", info: "Outgoing TD", gender: "Female"})
+	, (dnwc4:Candidate {Name: "Bernie Hughes", Party: "Independant", info: "NA", gender: "Male"})
+	, (dnwc5:Candidate {Name: "Andrew Keegan", Party: "AAA", info: "Counciller", gender: "Male"})
+	, (dnwc6:Candidate {Name: "John Lyons", Party: "Labour", info: "Outgoing TD", gender: "Male"})
+	, (dnwc7:Candidate {Name: "Paul McAuliffe", Party: "Fianna Fáil", info: "Counciller", gender: "Male"})
+	, (dnwc8:Candidate {Name: "Noel Rock", Party: "Fine Gael", info: "Counciller", gender: "Male"})
+	, (dnwc9:Candidate {Name: "Róisín Shortall", Party: "Socail Democrates", info: "Outgoing TD", gender: "Female"})
+	, (dnwc0:Candidate {Name: "Cormac McKay", Party: "Direct Democracy/National Citizens' Movement", info: "NA", gender: "Male"})
 ;
