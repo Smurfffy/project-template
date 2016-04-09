@@ -348,7 +348,17 @@ MATCH (cscc22:Candidate {Name: "Jim O’Connell"}),(csc:Constituency {Name: "Cor
 MATCH (cscc33:Candidate {Name: "Donnchadh Ó Laoghaire"}),(csc:Constituency {Name: "Cork South Central"}) CREATE cscc33-[:IN]->csc;
 MATCH (cscc44:Candidate {Name: "Fiona Ryan"}),(csc:Constituency {Name: "Cork South Central"}) CREATE cscc44-[:IN]->csc;
 
-
+MATCH (cswc:Candidate {Name: "Michael Collins"}),(csw:Constituency {Name: "Cork South West"}) CREATE cswc-[:IN]->csw;
+MATCH (cswc1:Candidate {Name: "Alan Coleman"}),(csw:Constituency {Name: "Cork South West"}) CREATE cswc1-[:IN]->csw;
+MATCH (cswc2:Candidate {Name: "Jim Daly"}),(csw:Constituency {Name: "Cork South West"}) CREATE cswc2-[:IN]->csw;
+MATCH (cswc3:Candidate {Name: "Noel Harrington"}),(csw:Constituency {Name: "Cork South West"}) CREATE cswc3-[:IN]->csw;
+MATCH (cswc4:Candidate {Name: "Theresa Heaney"}),(csw:Constituency {Name: "Cork South West"}) CREATE cswc4-[:IN]->csw;
+MATCH (cswc5:Candidate {Name: "Michael McCarthy"}),(csw:Constituency {Name: "Cork South West"}) CREATE cswc5-[:IN]->csw;
+MATCH (cswc6:Candidate {Name: "Rachel McCarthy"}),(csw:Constituency {Name: "Cork South West"}) CREATE cswc6-[:IN]->csw;
+MATCH (cswc7:Candidate {Name: "Margaret Murphy-O’Mahony"}),(csw:Constituency {Name: "Cork South West"}) CREATE cswc7-[:IN]->csw;
+MATCH (cswc8:Candidate {Name: "Fiona O’Leary"}),(csw:Constituency {Name: "Cork South West"}) CREATE cswc8-[:IN]->csw;
+MATCH (cswc9:Candidate {Name: "Johnny O’Mahony"}),(csw:Constituency {Name: "Cork South West"}) CREATE cswc9-[:IN]->csw;
+MATCH (cswc0:Candidate {Name: "Gillian Powell"}),(csw:Constituency {Name: "Cork South West"}) CREATE cswc0-[:IN]->csw;
 
 
 

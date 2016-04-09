@@ -348,4 +348,16 @@ CREATE
 	, (cscc22:Candidate {Name: "Jim O’Connell", Party: "AAA", info: "NA", gender: "Male"})
 	, (cscc33:Candidate {Name: "Donnchadh Ó Laoghaire", Party: "Sinn Fine", info: "Counciller", gender: "Male"})
 	, (cscc44:Candidate {Name: "Fiona Ryan", Party: "AAA", info: "NA", gender: "Female"})
+	
+	, (cswc:Candidate {Name: "Michael Collins", Party: "Independant", info: "Counciller", gender: "Male"})
+	, (cswc1:Candidate {Name: "Alan Coleman", Party: "Independant", info: "Counciller", gender: "Male"})
+	, (cswc2:Candidate {Name: "Jim Daly", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
+	, (cswc3:Candidate {Name: "Noel Harrington", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
+	, (cswc4:Candidate {Name: "Theresa Heaney", Party: "Catholic Democrats", info: "NA", gender: "Female"})
+	, (cswc5:Candidate {Name: "Michael McCarthy", Party: "Labour", info: "Outgoing TD", gender: "Male"})
+	, (cswc6:Candidate {Name: "Rachel McCarthy", Party: "Sinn Fine", info: "Counciller", gender: "Female"})
+	, (cswc7:Candidate {Name: "Margaret Murphy-O’Mahony", Party: "Fianna Fáil", info: "Counciller", gender: "Female"})
+	, (cswc8:Candidate {Name: "Fiona O’Leary", Party: "Independant", info: "NA", gender: "Female"})
+	, (cswc9:Candidate {Name: "Johnny O’Mahony", Party: "Green Party", info: "NA", gender: "Male"})
+	, (cswc0:Candidate {Name: "Gillian Powell", Party: "Independant", info: "NA", gender: "Male"})
 ;
