@@ -20,35 +20,49 @@ So a constituencies node contains the constituencies name, area in which the con
 All information on the candidates and constituencies were gotten off http://irishpoliticalmaps.blogspot.ie/2016/02/general-election-2016.html
 
 ## Queries
-Summarise your three queries here.
-Then explain them one by one in the following sections.
+My 3 queries represent information the general public might be interested in and with these queries they can be accesed immediately. Such things like, how many independant candidates are running in the election, which candidates are trying to be re-elected or how many candidates from a certain party run in a certain area. They are explained in more detail below.
 
-#### Query one title
-This query retreives the Bacon number of an actor...
+#### Retrieving All of the Candidates from a Certain Party.
+This query retreives all of the independant candidates in the election
 ```cypher
 MATCH
-	(Bacon)
+	(can:Candidate)-[rel:IN]->(con:Constituency)
+WHERE
+	(can.Party) = "Independant"
 RETURN
-	Bacon;
+	can, con;
 ```
 
-#### Query two title
-This query retreives the Bacon number of an actor...
+This query can be altered fro other results such as, how many members from Fianna Fáil are in the elction.
+
+#### Retrieving the Amount of Candidates Who Are Outgoing TDs, That are Councillers etc....
+This query retreives all of the running candidates who were elected in the 2011 election
 ```cypher
 MATCH
-	(Bacon)
+	(can:Candidate)-[rel:IN]->(con:Constituency)
+WHERE
+	(can.info) = "Outgoing TD"
 RETURN
-	Bacon;
+	can, con;
 ```
 
-#### Query three title
-This query retreives the Bacon number of an actor...
+This query can be altered for other results such as, how many councillers are in the election etc....
+
+#### Retrieving the Amount of Candidates Who Ran in a Cetain Party in a Certain Constituency
+This query retreives all candidates from Fine Gael ran in the Dublin
 ```cypher
 MATCH
-	(Bacon)
+	(can:Candidate)-[rel:IN]->(con:Constituency)
+WHERE
+	(can.Party) = "Fine Gael"
+AND
+	(con.Area) = "Dublin"
 RETURN
-	Bacon;
+	can, con;
 ```
+
+This query can be altered for other results such as, how many Sinn Fine memebers ran in Munster etc....
 
 ## References
 1. [Neo4J website](http://neo4j.com/), the website of the Neo4j database.
+2. [Irish Politcal Maps Blog](http://irishpoliticalmaps.blogspot.ie/2016/02/general-election-2016.html), Blog with information on every candidate and Constituency
