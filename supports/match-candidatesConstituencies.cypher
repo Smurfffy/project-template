@@ -548,3 +548,25 @@ MATCH (dscc9:Candidate {Name: "Richard Murray"}),(dsc:Constituency {Name: "D Sou
 MATCH (dscc0:Candidate {Name: "Oisín Ó hAlmhain"}),(dsc:Constituency {Name: "D South Central"}) CREATE dscc0-[:IN]->dsc;
 MATCH (dscc11:Candidate {Name: "Aengus Ó Snodaigh"}),(dsc:Constituency {Name: "D South Central"}) CREATE dscc11-[:IN]->dsc;
 MATCH (dscc22:Candidate {Name: "Bríd Smith"}),(dsc:Constituency {Name: "D South Central"}) CREATE dscc22-[:IN]->dsc;
+
+MATCH (dswc:Candidate {Name: "Colm Brophy"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc-[:IN]->dsw;
+MATCH (dswc1:Candidate {Name: "Declan Burke"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc1-[:IN]->dsw;
+MATCH (dswc2:Candidate {Name: "Seán Crowe"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc2-[:IN]->dsw;
+MATCH (dswc3:Candidate {Name: "Anne-Marie Dermody"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc3-[:IN]->dswc
+MATCH (dswc4:Candidate {Name: "Mick Duff"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc4-[:IN]->dsw;
+MATCH (dswc5:Candidate {Name: "Francis Duffy"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc5-[:IN]->dsw;
+MATCH (dswc6:Candidate {Name: "Sandra Fey"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc6-[:IN]->dsw;
+MATCH (dswc7:Candidate {Name: "Peter Fitzpatrick"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc7-[:IN]->dsw;
+MATCH (dswc8:Candidate {Name: "Sarah Holland"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc8-[:IN]->dsw;
+MATCH (dswc9:Candidate {Name: "Pamela Kearns"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc9-[:IN]->dsw;
+MATCH (dswc0:Candidate {Name: "John Lahart"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc0-[:IN]->dsw;
+MATCH (dswc11:Candidate {Name: "Eamonn Moloney"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc11-[:IN]->dsw;
+MATCH (dswc22:Candidate {Name: "Ronan McMahon"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc22-[:IN]->dsw;
+MATCH (dswc33:Candidate {Name: "Paul Murphy"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc33-[:IN]->dsw;
+MATCH (dswc44:Candidate {Name: "Kieran Adam Quigley"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc44-[:IN]->dsw;
+MATCH (dswc55:Candidate {Name: "Deirdre O’Donovan"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc55-[:IN]->dsw;
+MATCH (dswc66:Candidate {Name: "Frank O’Gorman"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc66-[:IN]->dsw;
+MATCH (dswc77:Candidate {Name: "Stephen Sinclair"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc77-[:IN]->dsw;
+MATCH (dswc88:Candidate {Name: "Joan Summerville-Molloy"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc88-[:IN]->dsw;
+MATCH (dswc99:Candidate {Name: "Karen Warren"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc99-[:IN]->dsw;
+MATCH (dswc00:Candidate {Name: "Katherine Zappone"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc00-[:IN]->dsw;
