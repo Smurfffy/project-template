@@ -1,9 +1,9 @@
-// Describe your query
-// at the start
-// in comments.
+// This query shows the user how many independant candidates there are and what constituency they run in.
 
 
 MATCH
-	(n)
+	(can:Candidate)-[rel:IN]->(con:Constituency)
+WHERE
+	(can.Party) = "Independant"
 RETURN
-	n;
+	can, con;
