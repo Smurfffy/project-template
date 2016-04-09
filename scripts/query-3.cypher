@@ -1,9 +1,11 @@
-// Describe your query
-// at the start
-// in comments.
+// This query tells the user how many candidates from Fine Gael ran in the Dublin are
 
 
 MATCH
-	(n)
+	(can:Candidate)-[rel:IN]->(con:Constituency)
+WHERE
+	(can.Party) = "Fine Gael"
+AND
+	(con.Area) = "Dublin"
 RETURN
-	n;
+	can, con;
