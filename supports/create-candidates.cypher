@@ -415,4 +415,17 @@ CREATE
 	, (tpc11:Candidate {Name: "Seamus Morris", Party: "Sinn Fine", info: "Counciller", gender: "Male"})
 	, (tpc22:Candidate {Name: "Marie Murphy", Party: "Fine Gael", info: "Counciller", gender: "Female"})
 	, (tpc33:Candidate {Name: "Michael Smith", Party: "Fianna Fáil", info: "", gender: ""})
+	
+	, (wac:Candidate {Name: "Sheikh M Ahmed", Party: "Independant", info: "NA", gender: "Male"})
+	, (wac1:Candidate {Name: "Mary Butler", Party: "Fianna Fáil", info: "Counciller", gender: "Female"})
+	, (wac2:Candidate {Name: "Paudie Coffey", Party: "Fine Gael", info: "Outgoing TD", gender: "Female"})
+	, (wac3:Candidate {Name: "Ciara Conway", Party: "Labour", info: "Outgoing TD", gender: "Female"})
+	, (wac4:Candidate {Name: "David Cullinane", Party: "Sinn Fine", info: "Senator", gender: "Male"})
+	, (wac5:Candidate {Name: "John Deasy", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
+	, (wac6:Candidate {Name: "Una Dunphy", Party: "AAA", info: "NA", gender: "Female"})
+	, (wac7:Candidate {Name: "John Halligan", Party: "Independant", info: "Outgoing TD", gender: "Male"})
+	, (wac8:Candidate {Name: "Grace O’Sullivan", Party: "Green Party", info: "NA", gender: "Female"})
+	, (wac9:Candidate {Name: "Mailo Power", Party: "Renua", info: "NA", gender: "Male"})
+	, (wac0:Candidate {Name: "Edward Quilty", Party: "Direct Democracy/National Citizens' Movement", info: "NA", gender: "Male"})
+	, (wac11:Candidate {Name: "John Walsh", Party: "Independant", info: "NA", gender: "Male"})
 ;

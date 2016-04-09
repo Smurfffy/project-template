@@ -415,4 +415,15 @@ MATCH (tpc11:Candidate {Name: "Seamus Morris"}),(tp:Constituency {Name: "Tippera
 MATCH (tpc22:Candidate {Name: "Marie Murphy"}),(tp:Constituency {Name: "Tipperary"}) CREATE tpc22-[:IN]->tp;
 MATCH (tpc33:Candidate {Name: "Michael Smith"}),(tp:Constituency {Name: "Tipperary"}) CREATE tpc33-[:IN]->tp;
 
-
+MATCH (wac:Candidate {Name: "Sheikh M Ahmed"}),(wa:Constituency {Name: "Waterford"}) CREATE wac-[:IN]->wa;
+MATCH (wac1:Candidate {Name: "Mary Butler"}),(wa:Constituency {Name: "Waterford"}) CREATE wac1-[:IN]->wa;
+MATCH (wac2:Candidate {Name: "Paudie Coffey"}),(wa:Constituency {Name: "Waterford"}) CREATE wac2-[:IN]->wa;
+MATCH (wac3:Candidate {Name: "Ciara Conway"}),(wa:Constituency {Name: "Waterford"}) CREATE wac3-[:IN]->wa;
+MATCH (wac4:Candidate {Name: "David Cullinane"}),(wa:Constituency {Name: "Waterford"}) CREATE wac4-[:IN]->wa;
+MATCH (wac5:Candidate {Name: "John Deasy"}),(wa:Constituency {Name: "Waterford"}) CREATE wac5-[:IN]->wa;
+MATCH (wac6:Candidate {Name: "Una Dunphy"}),(wa:Constituency {Name: "Waterford"}) CREATE wac6-[:IN]->wa;
+MATCH (wac7:Candidate {Name: "John Halligan"}),(wa:Constituency {Name: "Waterford"}) CREATE wac7-[:IN]->wa;
+MATCH (wac8:Candidate {Name: "Grace O’Sullivan"}),(wa:Constituency {Name: "Waterford"}) CREATE wac8-[:IN]->wa;
+MATCH (wac9:Candidate {Name: "Mailo Power"}),(wa:Constituency {Name: "Waterford"}) CREATE wac9-[:IN]->wa;
+MATCH (wac0:Candidate {Name: "Edward Quilty"}),(wa:Constituency {Name: "Waterford"}) CREATE wac0-[:IN]->wa;
+MATCH (wac11:Candidate {Name: "John Walsh"}),(wa:Constituency {Name: "Waterford"}) CREATE wac11-[:IN]->wa;
