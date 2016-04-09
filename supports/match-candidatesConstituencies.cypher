@@ -318,6 +318,20 @@ MATCH (cncc22:Candidate {Name: "Peter O’Loughlin"}),(cnc:Constituency {Name: "
 MATCH (cncc33:Candidate {Name: "Aislinn Tongue"}),(cnc:Constituency {Name: "Cork North Central"}) CREATE cncc33-[:IN]->cnc;
 MATCH (cncc44:Candidate {Name: "Ted Tynan"}),(cnc:Constituency {Name: "Cork North Central"}) CREATE cncc44-[:IN]->cnc;
 
+MATCH (cnwc:Candidate {Name: "Áine Collins"}),(cnw:Constituency {Name: "Cork North West"}) CREATE cnwc-[:IN]->cnw;
+MATCH (cnwc1:Candidate {Name: "Michael Creed"}),(cnw:Constituency {Name: "Cork North West"}) CREATE cnwc1-[:IN]->cnw;
+MATCH (cnwc2:Candidate {Name: "Nigel Dennehy"}),(cnw:Constituency {Name: "Cork North West"}) CREATE cnwc2-[:IN]->cnw;
+MATCH (cnwc3:Candidate {Name: "Jason Fitzgerald"}),(cnw:Constituency {Name: "Cork North West"}) CREATE cnwc3-[:IN]->cnw;
+MATCH (cnwc4:Candidate {Name: "Michael O’Donnell"}),(cnw:Constituency {Name: "Cork North West"}) CREATE cnwc4-[:IN]->cnw;
+MATCH (cnwc5:Candidate {Name: "Shirley Griffin"}),(cnw:Constituency {Name: "Cork North West"}) CREATE cnwc5-[:IN]->cnw;
+MATCH (cnwc6:Candidate {Name: "Cormac Manning"}),(cnw:Constituency {Name: "Cork North West"}) CREATE cnwc6-[:IN]->cnw;
+MATCH (cnwc7:Candidate {Name: "Aindrias Moynihan"}),(cnw:Constituency {Name: "Cork North West"}) CREATE cnwc7-[:IN]->cnw;
+MATCH (cnwc8:Candidate {Name: "Michael Moynihan"}),(cnw:Constituency {Name: "Cork North West"}) CREATE cnwc8-[:IN]->cnw;
+MATCH (cnwc9:Candidate {Name: "Diarmuid O’Flynn"}),(cnw:Constituency {Name: "Cork North West"}) CREATE cnwc9-[:IN]->cnw;
+MATCH (cnwc0:Candidate {Name: "Steven O’Riordan"}),(cnw:Constituency {Name: "Cork North West"}) CREATE cnwc0-[:IN]->cnw;
+MATCH (cnwc11:Candidate {Name: "John Paul O’Shea"}),(cnw:Constituency {Name: "Cork North West"}) CREATE cnwc11-[:IN]->cnw;
+MATCH (cnwc22:Candidate {Name: "Jerry O’Sullivan"}),(cnw:Constituency {Name: "Cork North West"}) CREATE cnwc22-[:IN]->cnw;
+
 
 
 
