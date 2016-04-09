@@ -400,3 +400,19 @@ MATCH (lcoc7:Candidate {Name: "Richard O’Donoghue"}),(lco:Constituency {Name: 
 MATCH (lcoc8:Candidate {Name: "John O’Gorman"}),(lco:Constituency {Name: "Limerick County"}) CREATE lcoc8-[:IN]->lco;
 MATCH (lcoc9:Candidate {Name: "Patrick O’Donovan"}),(lco:Constituency {Name: "Limerick County"}) CREATE lcoc9-[:IN]->lco;
 
+MATCH (tpc:Candidate {Name: "Siobhán Ambrose"}),(tp:Constituency {Name: "Tipperary"}) CREATE tpc-[:IN]->tp;
+MATCH (tpc1:Candidate {Name: "Jackie Cahill"}),(tp:Constituency {Name: "Tipperary"}) CREATE tpc1-[:IN]->tp;
+MATCH (tpc2:Candidate {Name: "Noel Coonan"}),(tp:Constituency {Name: "Tipperary"}) CREATE tpc2-[:IN]->tp;
+MATCH (tpc3:Candidate {Name: "Michael Dillon"}),(tp:Constituency {Name: "Tipperary"}) CREATE tpc3-[:IN]->tp;
+MATCH (tpc4:Candidate {Name: "Gearoid Fitzgibbon"}),(tp:Constituency {Name: "Tipperary"}) CREATE tpc4-[:IN]->tp;
+MATCH (tpc5:Candidate {Name: "Tom Hayes"}),(tp:Constituency {Name: "Tipperary"}) CREATE tpc5-[:IN]->tp;
+MATCH (tpc6:Candidate {Name: "Séamus Healy"}),(tp:Constituency {Name: "Tipperary"}) CREATE tpc6-[:IN]->tp;
+MATCH (tpc7:Candidate {Name: "Caroline Hofman"}),(tp:Constituency {Name: "Tipperary"}) CREATE tpc7-[:IN]->tp;
+MATCH (tpc8:Candidate {Name: "Alan Kelly"}),(tp:Constituency {Name: "Tipperary"}) CREATE tpc8-[:IN]->tp;
+MATCH (tpc9:Candidate {Name: "Michael Lowry"}),(tp:Constituency {Name: "Tipperary"}) CREATE tpc9-[:IN]->tp;
+MATCH (tpc0:Candidate {Name: "Mattie McGrath"}),(tp:Constituency {Name: "Tipperary"}) CREATE tpc0-[:IN]->tp;
+MATCH (tpc11:Candidate {Name: "Seamus Morris"}),(tp:Constituency {Name: "Tipperary"}) CREATE tpc11-[:IN]->tp;
+MATCH (tpc22:Candidate {Name: "Marie Murphy"}),(tp:Constituency {Name: "Tipperary"}) CREATE tpc22-[:IN]->tp;
+MATCH (tpc33:Candidate {Name: "Michael Smith"}),(tp:Constituency {Name: "Tipperary"}) CREATE tpc33-[:IN]->tp;
+
+
