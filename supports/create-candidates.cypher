@@ -318,4 +318,18 @@ CREATE
 	, (cncc22:Candidate {Name: "Peter O’Loughlin", Party: "Independant", info: "NA", gender: "Male"})
 	, (cncc33:Candidate {Name: "Aislinn Tongue", Party: "Independant", info: "NA", gender: "Female"})
 	, (cncc44:Candidate {Name: "Ted Tynan", Party: "Workers Party", info: "Counciller", gender: "Male"})
+	
+	, (cnwc:Candidate {Name: "Áine Collins", Party: "Fine Gael", info: "Outgoing TD", gender: "Female"})
+	, (cnwc1:Candidate {Name: "Michael Creed", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
+	, (cnwc2:Candidate {Name: "Nigel Dennehy", Party: "Sinn Fine", info: "NA", gender: "Male"})
+	, (cnwc3:Candidate {Name: "Jason Fitzgerald", Party: "Renua", info: "NA", gender: "Male"})
+	, (cnwc4:Candidate {Name: "Michael O’Donnell", Party: "Communist Party of Ireland", info: "NA", gender: "Male"})
+	, (cnwc5:Candidate {Name: "Shirley Griffin", Party: "People's Convention", info: "NA", gender: "Female"})
+	, (cnwc6:Candidate {Name: "Cormac Manning", Party: "Green Party", info: "NA", gender: "Male"})
+	, (cnwc7:Candidate {Name: "Aindrias Moynihan", Party: "Fianna Fáil", info: "Counciller", gender: "Male"})
+	, (cnwc8:Candidate {Name: "Michael Moynihan", Party: "Fianna Fáil", info: "Outgoing TD", gender: "Male"})
+	, (cnwc9:Candidate {Name: "Diarmuid O’Flynn", Party: "Independant", info: "NA", gender: "Male"})
+	, (cnwc0:Candidate {Name: "Steven O’Riordan", Party: "Independant", info: "NA", gender: "Male"})
+	, (cnwc11:Candidate {Name: "John Paul O’Shea", Party: "Independant", info: "Counciller", gender: "Male"})
+	, (cnwc22:Candidate {Name: "Jerry O’Sullivan", Party: "Independant", info: "NA", gender: "Male"})
 ;
