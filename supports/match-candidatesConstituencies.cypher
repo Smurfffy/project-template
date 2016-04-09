@@ -389,3 +389,14 @@ MATCH (lcyc8:Candidate {Name: "Cian Prendeville"}),(lcy:Constituency {Name: "Lim
 MATCH (lcyc9:Candidate {Name: "Maurice Quinlivan"}),(lcy:Constituency {Name: "Limerick City"}) CREATE lcyc9-[:IN]->lcy;
 MATCH (lcyc0:Candidate {Name: "Denis Riordan"}),(lcy:Constituency {Name: "Limerick City"}) CREATE lcyc0-[:IN]->lcy;
 
+MATCH (lcoc:Candidate {Name: "Seamus Browne"}),(lco:Constituency {Name: "Limerick County"}) CREATE lcoc-[:IN]->lco;
+MATCH (lcoc1:Candidate {Name: "Niall Collins"}),(lco:Constituency {Name: "Limerick County"}) CREATE lcoc1-[:IN]->lco;
+MATCH (lcoc2:Candidate {Name: "Alexander Cosgrave"}),(lco:Constituency {Name: "Limerick County"}) CREATE lcoc2-[:IN]->lco;
+MATCH (lcoc3:Candidate {Name: "James Heffernan"}),(lco:Constituency {Name: "Limerick County"}) CREATE lcoc3-[:IN]->lco;
+MATCH (lcoc4:Candidate {Name: "Mark Keogh"}),(lco:Constituency {Name: "Limerick County"}) CREATE lcoc4-[:IN]->lco;
+MATCH (lcoc5:Candidate {Name: "Tom Neville"}),(lco:Constituency {Name: "Limerick County"}) CREATE lcoc5-[:IN]->lco;
+MATCH (lcoc6:Candidate {Name: "Emmett O’Brien"}),(lco:Constituency {Name: "Limerick County"}) CREATE lcoc6-[:IN]->lco;
+MATCH (lcoc7:Candidate {Name: "Richard O’Donoghue"}),(lco:Constituency {Name: "Limerick County"}) CREATE lcoc7-[:IN]->lco;
+MATCH (lcoc8:Candidate {Name: "John O’Gorman"}),(lco:Constituency {Name: "Limerick County"}) CREATE lcoc8-[:IN]->lco;
+MATCH (lcoc9:Candidate {Name: "Patrick O’Donovan"}),(lco:Constituency {Name: "Limerick County"}) CREATE lcoc9-[:IN]->lco;
+
