@@ -332,6 +332,22 @@ MATCH (cnwc0:Candidate {Name: "Steven O’Riordan"}),(cnw:Constituency {Name: "C
 MATCH (cnwc11:Candidate {Name: "John Paul O’Shea"}),(cnw:Constituency {Name: "Cork North West"}) CREATE cnwc11-[:IN]->cnw;
 MATCH (cnwc22:Candidate {Name: "Jerry O’Sullivan"}),(cnw:Constituency {Name: "Cork North West"}) CREATE cnwc22-[:IN]->cnw;
 
+MATCH (cscc:Candidate {Name: "Lorna Bogue"}),(csc:Constituency {Name: "Cork South Central"}) CREATE cscc-[:IN]->csc;
+MATCH (cscc1:Candidate {Name: "Jerry Buttimer"}),(csc:Constituency {Name: "Cork South Central"}) CREATE cscc1-[:IN]->csc;
+MATCH (cscc2:Candidate {Name: "Simon Coveney"}),(csc:Constituency {Name: "Cork South Central"}) CREATE cscc2-[:IN]->csc;
+MATCH (cscc3:Candidate {Name: "Mick Finn"}),(csc:Constituency {Name: "Cork South Central"}) CREATE cscc3-[:IN]->csc;
+MATCH (cscc4:Candidate {Name: "Joe Harris"}),(csc:Constituency {Name: "Cork South Central"}) CREATE cscc4-[:IN]->csc;
+MATCH (cscc5:Candidate {Name: "Elizabeth Hourihane"}),(csc:Constituency {Name: "Cork South Central"}) CREATE cscc5-[:IN]->csc;
+MATCH (cscc6:Candidate {Name: "Ciarán Kenneally"}),(csc:Constituency {Name: "Cork South Central"}) CREATE cscc6-[:IN]->csc;
+MATCH (cscc7:Candidate {Name: "Ciarán Lynch"}),(csc:Constituency {Name: "Cork South Central"}) CREATE cscc7-[:IN]->csc;
+MATCH (cscc8:Candidate {Name: "Micheál Martin"}),(csc:Constituency {Name: "Cork South Central"}) CREATE cscc8-[:IN]->csc;
+MATCH (cscc9:Candidate {Name: "Michael McGrath"}),(csc:Constituency {Name: "Cork South Central"}) CREATE cscc9-[:IN]->csc;
+MATCH (cscc0:Candidate {Name: "Michael Mohally"}),(csc:Constituency {Name: "Cork South Central"}) CREATE cscc0-[:IN]->csc;
+MATCH (cscc11:Candidate {Name: "Diarmaid Ó Cadhla"}),(csc:Constituency {Name: "Cork South Central"}) CREATE cscc11-[:IN]->csc;
+MATCH (cscc22:Candidate {Name: "Jim O’Connell"}),(csc:Constituency {Name: "Cork South Central"}) CREATE cscc22-[:IN]->csc;
+MATCH (cscc33:Candidate {Name: "Donnchadh Ó Laoghaire"}),(csc:Constituency {Name: "Cork South Central"}) CREATE cscc33-[:IN]->csc;
+MATCH (cscc44:Candidate {Name: "Fiona Ryan"}),(csc:Constituency {Name: "Cork South Central"}) CREATE cscc44-[:IN]->csc;
+
 
 
 
