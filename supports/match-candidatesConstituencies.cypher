@@ -479,3 +479,19 @@ MATCH (dcc11:Candidate {Name: "Maureen O’Sullivan"}),(dc:Constituency {Name: "
 MATCH (dcc22:Candidate {Name: "Cieran Perry"}),(dc:Constituency {Name: "D Central"}) CREATE dcc22-[:IN]->dc;
 MATCH (dcc33:Candidate {Name: "Eilís Ryan"}),(dc:Constituency {Name: "D Central"}) CREATE dcc33-[:IN]->dc;
 MATCH (dcc44:Candidate {Name: "Ian Noel Smyth"}),(dc:Constituency {Name: "D Central"}) CREATE dcc44-[:IN]->dc;
+
+MATCH (dfc:Candidate {Name: "Marcus de Brún"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc-[:IN]->df;
+MATCH (dfc1:Candidate {Name: "Lorraine Clifford-Lee"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc1-[:IN]->df;
+MATCH (dfc2:Candidate {Name: "Clare Daly"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc2-[:IN]->df;
+MATCH (dfc3:Candidate {Name: "Alan Farrell"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc3-[:IN]->df;
+MATCH (dfc4:Candidate {Name: "Roslyn Fuller"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc4-[:IN]->df;
+MATCH (dfc5:Candidate {Name: "Terry Kelleher"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc5-[:IN]->df;
+MATCH (dfc6:Candidate {Name: "Barry Martin"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc6-[:IN]->df;
+MATCH (dfc7:Candidate {Name: "Tony Murphy"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc7-[:IN]->df;
+MATCH (dfc8:Candidate {Name: "Darragh O’Brien"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc8-[:IN]->df;
+MATCH (dfc9:Candidate {Name: "Joe O’Brien"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc9-[:IN]->df;
+MATCH (dfc0:Candidate {Name: "Fergal O’Connell"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc0-[:IN]->df;
+MATCH (dfc11:Candidate {Name: "Louise O’Reilly"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc11-[:IN]->df;
+MATCH (dfc22:Candidate {Name: "Gerry Molloy"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc22-[:IN]->df;
+MATCH (dfc33:Candidate {Name: "James Reilly"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc33-[:IN]->df;
+MATCH (dfc44:Candidate {Name: "Brendan Ryan"}),(df:Constituency {Name: "D Fingal"}) CREATE dfc44-[:IN]->df;

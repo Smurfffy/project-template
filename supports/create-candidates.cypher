@@ -480,4 +480,22 @@ CREATE
 	, (dcc22:Candidate {Name: "Cieran Perry", Party: "Independant", info: "Counciller", gender: "Male"})
 	, (dcc33:Candidate {Name: "Eilís Ryan", Party: "Workers Party", info: "Counciller", gender: "Female"})
 	, (dcc44:Candidate {Name: "Ian Noel Smyth", Party: "Green Party", info: "NA", gender: "Male"})
+	
+	, (dfc:Candidate {Name: "Marcus de Brún", Party: "Independant", info: "NA", gender: "Male"})
+	, (dfc1:Candidate {Name: "Lorraine Clifford-Lee", Party: "Fianna Fáil", info: "NA", gender: "Female"})
+	, (dfc2:Candidate {Name: "Clare Daly", Party: "Independant", info: "Outgoing TD", gender: "Female"})
+	, (dfc3:Candidate {Name: "Alan Farrell", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
+	, (dfc4:Candidate {Name: "Roslyn Fuller", Party: "Independant", info: "NA", gender: "Female"})
+	, (dfc5:Candidate {Name: "Terry Kelleher", Party: "AAA", info: "NA", gender: "Female"})
+	, (dfc6:Candidate {Name: "Barry Martin", Party: "Independant", info: "NA", gender: "Male"})
+	, (dfc7:Candidate {Name: "Tony Murphy", Party: "Independant", info: "Counciller", gender: "Male"})
+	, (dfc8:Candidate {Name: "Darragh O’Brien", Party: "Fianna Fáil", info: "Senator", gender: "Male"})
+	, (dfc9:Candidate {Name: "Joe O’Brien", Party: "Green Party", info: "NA", gender: "Male"})
+	, (dfc0:Candidate {Name: "Fergal O’Connell", Party: "Independant", info: "NA", gender: "Male"})
+	, (dfc11:Candidate {Name: "Louise O’Reilly", Party: "Sinn Fine", info: "NA", gender: "Female"})
+	, (dfc22:Candidate {Name: "Gerry Molloy", Party: "Renua", info: "Counciller", gender: "Male"})
+	, (dfc33:Candidate {Name: "James Reilly", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
+	, (dfc44:Candidate {Name: "Brendan Ryan", Party: "Labour", info: "Outgoing TD", gender: "Male"})
+	
+	, (dfc44:Candidate {Name: "Brendan Ryan", Party: "Labour", info: "Outgoing TD", gender: "Male"})
 ;
