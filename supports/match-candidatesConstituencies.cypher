@@ -534,3 +534,17 @@ MATCH (drc6:Candidate {Name: "Shane Ross"}),(dr:Constituency {Name: "D Rathdown"
 MATCH (drc7:Candidate {Name: "Alan Shatter"}),(dr:Constituency {Name: "D Rathdown"}) CREATE drc7-[:IN]->dr;
 MATCH (drc8:Candidate {Name: "Alex White"}),(dr:Constituency {Name: "D Rathdown"}) CREATE drc8-[:IN]->dr;
 MATCH (drc9:Candidate {Name: "Mary White"}),(dr:Constituency {Name: "D Rathdown"}) CREATE drc9-[:IN]->dr;
+
+MATCH (dscc:Candidate {Name: "Catherine Ardagh"}),(dsc:Constituency {Name: "D South Central"}) CREATE dscc-[:IN]->dsc;
+MATCH (dscc1:Candidate {Name: "Neville Bradley"}),(dsc:Constituency {Name: "D South Central"}) CREATE dscc1-[:IN]->dsc;
+MATCH (dscc2:Candidate {Name: "Catherine Byrne"}),(dsc:Constituency {Name: "D South Central"}) CREATE dscc2-[:IN]->dsc;
+MATCH (dscc3:Candidate {Name: "Eric Byrne"}),(dsc:Constituency {Name: "D South Central"}) CREATE dscc3-[:IN]->dsc;
+MATCH (dscc4:Candidate {Name: "Joan Collins"}),(dsc:Constituency {Name: "D South Central"}) CREATE dscc4-[:IN]->dsc;
+MATCH (dscc5:Candidate {Name: "Liam Coyne"}),(dsc:Constituency {Name: "D South Central"}) CREATE dscc5-[:IN]->dsc;
+MATCH (dscc6:Candidate {Name: "Maire Devine"}),(dsc:Constituency {Name: "D South Central"}) CREATE dscc6-[:IN]->dsc;
+MATCH (dscc7:Candidate {Name: "Michael Gargan"}),(dsc:Constituency {Name: "D South Central"}) CREATE dscc7-[:IN]->dsc;
+MATCH (dscc8:Candidate {Name: "Paul Hand"}),(dsc:Constituency {Name: "D South Central"}) CREATE dscc8-[:IN]->dsc;
+MATCH (dscc9:Candidate {Name: "Richard Murray"}),(dsc:Constituency {Name: "D South Central"}) CREATE dscc9-[:IN]->dsc;
+MATCH (dscc0:Candidate {Name: "Oisín Ó hAlmhain"}),(dsc:Constituency {Name: "D South Central"}) CREATE dscc0-[:IN]->dsc;
+MATCH (dscc11:Candidate {Name: "Aengus Ó Snodaigh"}),(dsc:Constituency {Name: "D South Central"}) CREATE dscc11-[:IN]->dsc;
+MATCH (dscc22:Candidate {Name: "Bríd Smith"}),(dsc:Constituency {Name: "D South Central"}) CREATE dscc22-[:IN]->dsc;

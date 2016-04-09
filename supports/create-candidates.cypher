@@ -535,4 +535,18 @@ CREATE
 	, (drc7:Candidate {Name: "Alan Shatter", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
 	, (drc8:Candidate {Name: "Alex White", Party: "Labour", info: "Outgoing TD", gender: "Male"})
 	, (drc9:Candidate {Name: "Mary White", Party: "Fianna Fáil", info: "Senator", gender: "Male"})
+	
+	, (dscc:Candidate {Name: "Catherine Ardagh", Party: "Fianna Fáil", info: "Counciller", gender: "Female"})
+	, (dscc1:Candidate {Name: "Neville Bradley", Party: "Direct Democracy/National Citizens' Movement", info: "NA", gender: "Male"})
+	, (dscc2:Candidate {Name: "Catherine Byrne", Party: "Fine Gael", info: "Outgoing TD", gender: "Female"})
+	, (dscc3:Candidate {Name: "Eric Byrne", Party: "Labour", info: "Outgoing TD", gender: "Male"})
+	, (dscc4:Candidate {Name: "Joan Collins", Party: "Independant", info: "Outgoing TD", gender: "Female"})
+	, (dscc5:Candidate {Name: "Liam Coyne", Party: "Socail Democrates", info: "NA", gender: "Male"})
+	, (dscc6:Candidate {Name: "Maire Devine", Party: "Sinn Fine", info: "Counciller", gender: "Female"})
+	, (dscc7:Candidate {Name: "Michael Gargan", Party: "Renua", info: "NA", gender: "Male"})
+	, (dscc8:Candidate {Name: "Paul Hand", Party: "Independant", info: "Counciller", gender: "Male"})
+	, (dscc9:Candidate {Name: "Richard Murray", Party: "Independant", info: "NA", gender: "Male"})
+	, (dscc0:Candidate {Name: "Oisín Ó hAlmhain", Party: "Green Party", info: "NA", gender: "Male"})
+	, (dscc11:Candidate {Name: "Aengus Ó Snodaigh", Party: "Sinn Fine", info: "Outgoing TD", gender: "Male"})
+	, (dscc22:Candidate {Name: "Bríd Smith", Party: "AAA", info: "NA", gender: "Female"})
 ;
