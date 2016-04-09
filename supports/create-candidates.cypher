@@ -571,4 +571,16 @@ CREATE
 	, (dswc88:Candidate {Name: "Joan Summerville-Molloy", Party: "Independant", info: "NA", gender: "Female"})
 	, (dswc99:Candidate {Name: "Karen Warren", Party: "Fine Gael", info: "NA", gender: "Female"})
 	, (dswc00:Candidate {Name: "Katherine Zappone", Party: "Independant", info: "NA", gender: "Female"})
+	
+	, (dwc:Candidate {Name: "Joan Burton", Party: "Labour", info: "Outgoing TD", gender: "Female"})
+	, (dwc1:Candidate {Name: "Dermot Casey", Party: "Independant", info: "NA", gender: "Male"})
+	, (dwc2:Candidate {Name: "Jack Chambers", Party: "Fianna Fáil", info: "NA", gender: "Male"})
+	, (dwc3:Candidate {Name: "TJ Clare", Party: "Independant", info: "NA", gender: "Male"})
+	, (dwc4:Candidate {Name: "Ruth Coppinger", Party: "AAA", info: "Outgoing TD", gender: "Male"})
+	, (dwc5:Candidate {Name: "Paul Donnelly", Party: "Sinn Fine", info: "NA", gender: "Male"})
+	, (dwc6:Candidate {Name: "David McGuinness", Party: "Independant", info: "NA", gender: "Male"})
+	, (dwc7:Candidate {Name: "Catherine Noone", Party: "Fine Gael", info: "Senator", gender: "Female"})
+	, (dwc8:Candidate {Name: "Jo O’Brien", Party: "Renua", info: "NA", gender: "Male"})
+	, (dwc9:Candidate {Name: "Roderic O’Gorman", Party: "Green Party", info: "NA", gender: "Male"})
+	, (dwc0:Candidate {Name: "Leo Varadkar", Party: "Fine Gael", info: "NA", gender: "Male"})
 ;
