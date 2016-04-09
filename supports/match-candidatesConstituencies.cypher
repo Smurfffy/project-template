@@ -427,3 +427,24 @@ MATCH (wac8:Candidate {Name: "Grace O’Sullivan"}),(wa:Constituency {Name: "Wat
 MATCH (wac9:Candidate {Name: "Mailo Power"}),(wa:Constituency {Name: "Waterford"}) CREATE wac9-[:IN]->wa;
 MATCH (wac0:Candidate {Name: "Edward Quilty"}),(wa:Constituency {Name: "Waterford"}) CREATE wac0-[:IN]->wa;
 MATCH (wac11:Candidate {Name: "John Walsh"}),(wa:Constituency {Name: "Waterford"}) CREATE wac11-[:IN]->wa;
+
+MATCH (dbnc:Candidate {Name: "Tommy Broughan"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc-[:IN]->dbn;
+MATCH (dbnc1:Candidate {Name: "Richard Bruton"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc1-[:IN]->dbn;
+MATCH (dbnc2:Candidate {Name: "Paul Clarke"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc2-[:IN]->dbn;
+MATCH (dbnc3:Candidate {Name: "Donna Cooney"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc3-[:IN]->dbn;
+MATCH (dbnc4:Candidate {Name: "Terence Flanagan"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc4-[:IN]->dbn;
+MATCH (dbnc5:Candidate {Name: "Jimmy Guerin"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc5-[:IN]->dbn;
+MATCH (dbnc6:Candidate {Name: "Seán Haughey"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc6-[:IN]->dbn;
+MATCH (dbnc7:Candidate {Name: "Deirdre Heney"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc7-[:IN]->dbn;
+MATCH (dbnc8:Candidate {Name: "John Lyons"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc8-[:IN]->dbn;
+MATCH (dbnc9:Candidate {Name: "Micheál MacDonncha"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc9-[:IN]->dbn;
+MATCH (dbnc0:Candidate {Name: "Finian McGrath"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc0-[:IN]->dbn;
+MATCH (dbnc11:Candidate {Name: "Denise Mitchell"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc11-[:IN]->dbn;
+MATCH (dbnc22:Candidate {Name: "Michael O’Brien"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc22-[:IN]->dbn;
+MATCH (dbnc33:Candidate {Name: "Cian O’Callaghan"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc33-[:IN]->dbn;
+MATCH (dbnc44:Candidate {Name: "Prionsias Ó Conaráin"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc44-[:IN]->dbn;
+MATCH (dbnc55:Candidate {Name: "Naoise Ó Muirí"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc55-[:IN]->dbn;
+MATCH (dbnc66:Candidate {Name: "Damien O’Neill"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc66-[:IN]->dbn;
+MATCH (dbnc77:Candidate {Name: "Aodhán Ó Riordáin"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc77-[:IN]->dbn;
+MATCH (dbnc88:Candidate {Name: "Averil Power"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc88-[:IN]->dbn;
+MATCH (dbnc99:Candidate {Name: "Stephanie Regan"}),(dbn:Constituency {Name: "D Bay North"}) CREATE dbnc99-[:IN]->dbn;
