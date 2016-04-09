@@ -378,5 +378,15 @@ CREATE
 	, (kyc44:Candidate {Name: "Michael O’Gorman", Party: "Independant", info: "NA", gender: "Male"})
 	, (kyc55:Candidate {Name: "Arthur Spring", Party: "Labour", info: "Outgoing TD", gender: "Male"})
 	
-	
+	, (lcyc:Candidate {Name: "Nora Bennis", Party: "Catholic Democrats", info: "NA", gender: "Female"})
+	, (lcyc1:Candidate {Name: "James Gaffney", Party: "Green Party", info: "NA", gender: "Male"})
+	, (lcyc2:Candidate {Name: "Desmond Hayes", Party: "Independant", info: "NA", gender: "Male"})
+	, (lcyc3:Candidate {Name: "Sarah Jane Hennelly", Party: "Socail Democrates", info: "NA", gender: "Female"})
+	, (lcyc4:Candidate {Name: "Michael Noonan", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
+	, (lcyc5:Candidate {Name: "Willie O’Dea", Party: "Fianna Fáil", info: "Outgoing TD", gender: "Male"})
+	, (lcyc6:Candidate {Name: "Kieran O’Donnell", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
+	, (lcyc7:Candidate {Name: "Jan O’Sullivan", Party: "Labour", info: "Outgoing TD", gender: "Female"})
+	, (lcyc8:Candidate {Name: "Cian Prendeville", Party: "AAA", info: "Counciller", gender: "Male"})
+	, (lcyc9:Candidate {Name: "Maurice Quinlivan", Party: "Sinn Fine", info: "Counciller", gender: "Female"})
+	, (lcyc0:Candidate {Name: "Denis Riordan", Party: "Independant", info: "NA", gender: "Male"})
 ;
