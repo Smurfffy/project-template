@@ -360,6 +360,21 @@ MATCH (cswc8:Candidate {Name: "Fiona O’Leary"}),(csw:Constituency {Name: "Cork
 MATCH (cswc9:Candidate {Name: "Johnny O’Mahony"}),(csw:Constituency {Name: "Cork South West"}) CREATE cswc9-[:IN]->csw;
 MATCH (cswc0:Candidate {Name: "Gillian Powell"}),(csw:Constituency {Name: "Cork South West"}) CREATE cswc0-[:IN]->csw;
 
-
+MATCH (kyc:Candidate {Name: "John Brassil"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc-[:IN]->ky;
+MATCH (kyc1:Candidate {Name: "Donal Corcoran"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc1-[:IN]->ky;
+MATCH (kyc2:Candidate {Name: "Jimmy Deenihan"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc2-[:IN]->ky;
+MATCH (kyc3:Candidate {Name: "Martin Ferris"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc3-[:IN]->ky;
+MATCH (kyc4:Candidate {Name: "Brian Finucane"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc4-[:IN]->ky;
+MATCH (kyc5:Candidate {Name: "Michael Fitzgerald"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc5-[:IN]->ky;
+MATCH (kyc6:Candidate {Name: "Mary E. Fitzgibbon"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc6-[:IN]->ky;
+MATCH (kyc7:Candidate {Name: "Henry Gaynor"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc7-[:IN]->ky;
+MATCH (kyc8:Candidate {Name: "Brendan Griffin"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc8-[:IN]->ky;
+MATCH (kyc9:Candidate {Name: "Danny Healy Rae"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc9-[:IN]->ky;
+MATCH (kyc0:Candidate {Name: "Michael Healy Rae"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc0-[:IN]->ky;
+MATCH (kyc11:Candidate {Name: "Norma Moriarty"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc11-[:IN]->ky;
+MATCH (kyc22:Candidate {Name: "Kevin Murphy"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc22-[:IN]->ky;
+MATCH (kyc33:Candidate {Name: "Grace O’Donnell"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc33-[:IN]->ky;
+MATCH (kyc44:Candidate {Name: "Michael O’Gorman"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc44-[:IN]->ky;
+MATCH (kyc55:Candidate {Name: "Arthur Spring"}),(ky:Constituency {Name: "Kerry"}) CREATE kyc55-[:IN]->ky;
 
 
