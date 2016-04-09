@@ -583,4 +583,17 @@ CREATE
 	, (dwc8:Candidate {Name: "Jo O’Brien", Party: "Renua", info: "NA", gender: "Male"})
 	, (dwc9:Candidate {Name: "Roderic O’Gorman", Party: "Green Party", info: "NA", gender: "Male"})
 	, (dwc0:Candidate {Name: "Leo Varadkar", Party: "Fine Gael", info: "NA", gender: "Male"})
+	
+	, (dlc:Candidate {Name: "Maria Bailey", Party: "Fine Gael", info: "Counciller", gender: "Female"})
+	, (dlc1:Candidate {Name: "Sean Barrett", Party: "Fine Gael", info: "Ceann Comhairle", gender: "Male"})
+	, (dlc2:Candidate {Name: "Richard Boyd-Barrett", Party: "AAA", info: "Outgoing TD", gender: "Male"})
+	, (dlc3:Candidate {Name: "Frank Cronin", Party: "Renua", info: "NA", gender: "Male"})
+	, (dlc4:Candidate {Name: "Cormac Devlin", Party: "Fianna Fáil", info: "Councillor", gender: "Male"})
+	, (dlc5:Candidate {Name: "Mary Hanafin", Party: "Fianna Fáil", info: "Counciller", gender: "Female"})
+	, (dlc6:Candidate {Name: "Carol Hunt", Party: "Independant", info: "NA", gender: "Female"})
+	, (dlc7:Candidate {Name: "Mary Mitchell O’Connor", Party: "Fine Gael", info: "Outgoing TD", gender: "Female"})
+	, (dlc8:Candidate {Name: "Shane O’Brien", Party: "Sinn Fine", info: "Counciller", gender: "Male"})
+	, (dlc9:Candidate {Name: "Carrie Smyth", Party: "Labour", info: "Counciller", gender: "Female"})
+	, (dlc0:Candidate {Name: "Ossian Smyth", Party: "Green Party", info: "NA", gender: "Female"})
+	, (dlc11:Candidate {Name: "Raymond Whitehead", Party: "Direct Democracy/National Citizens' Movement", info: "NA", gender: "Female"})
 ;

@@ -570,3 +570,28 @@ MATCH (dswc77:Candidate {Name: "Stephen Sinclair"}),(dsw:Constituency {Name: "D 
 MATCH (dswc88:Candidate {Name: "Joan Summerville-Molloy"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc88-[:IN]->dsw;
 MATCH (dswc99:Candidate {Name: "Karen Warren"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc99-[:IN]->dsw;
 MATCH (dswc00:Candidate {Name: "Katherine Zappone"}),(dsw:Constituency {Name: "D South West"}) CREATE dswc00-[:IN]->dsw;
+
+MATCH (dwc:Candidate {Name: "Joan Burton"}),(dw:Constituency {Name: "D West"}) CREATE dwc-[:IN]->dw;
+MATCH (dwc1:Candidate {Name: "Dermot Casey"}),(dw:Constituency {Name: "D West"}) CREATE dwc1-[:IN]->dw;
+MATCH (dwc2:Candidate {Name: "Jack Chambers"}),(dw:Constituency {Name: "D West"}) CREATE dwc2-[:IN]->dw;
+MATCH (dwc3:Candidate {Name: "TJ Clare"}),(dw:Constituency {Name: "D West"}) CREATE dwc3-[:IN]->dw;
+MATCH (dwc4:Candidate {Name: "Ruth Coppinger"}),(dw:Constituency {Name: "D West"}) CREATE dwc4-[:IN]->dw;
+MATCH (dwc5:Candidate {Name: "Paul Donnelly"}),(dw:Constituency {Name: "D West"}) CREATE dwc5-[:IN]->dw;
+MATCH (dwc6:Candidate {Name: "David McGuinness"}),(dw:Constituency {Name: "D West"}) CREATE dwc6-[:IN]->dw;
+MATCH (dwc7:Candidate {Name: "Catherine Noone"}),(dw:Constituency {Name: "D West"}) CREATE dwc7-[:IN]->dw;
+MATCH (dwc8:Candidate {Name: "Jo O’Brien"}),(dw:Constituency {Name: "D West"}) CREATE dwc8-[:IN]->dw;
+MATCH (dwc9:Candidate {Name: "Roderic O’Gorman"}),(dw:Constituency {Name: "D West"}) CREATE dwc9-[:IN]->dw;
+MATCH (dwc0:Candidate {Name: "Leo Varadkar"}),(dw:Constituency {Name: "D West"}) CREATE dwc0-[:IN]->dw;
+
+MATCH (dlc:Candidate {Name: "Maria Bailey"}),(dl:Constituency {Name: "Dun Laoghaire"}) CREATE dlc-[:IN]->dl;
+MATCH (dlc1:Candidate {Name: "Sean Barrett"}),(dl:Constituency {Name: "Dun Laoghaire"}) CREATE dlc1-[:IN]->dl;
+MATCH (dlc2:Candidate {Name: "Richard Boyd-Barrett"}),(dl:Constituency {Name: "Dun Laoghaire"}) CREATE dlc2-[:IN]->dl;
+MATCH (dlc3:Candidate {Name: "Frank Cronin"}),(dl:Constituency {Name: "Dun Laoghaire"}) CREATE dlc3-[:IN]->dl;
+MATCH (dlc4:Candidate {Name: "Cormac Devlin"}),(dl:Constituency {Name: "Dun Laoghaire"}) CREATE dlc4-[:IN]->dl;
+MATCH (dlc5:Candidate {Name: "Mary Hanafin"}),(dl:Constituency {Name: "Dun Laoghaire"}) CREATE dlc5-[:IN]->dl;
+MATCH (dlc6:Candidate {Name: "Carol Hunt"}),(dl:Constituency {Name: "Dun Laoghaire"}) CREATE dlc6-[:IN]->dl;
+MATCH (dlc7:Candidate {Name: "Mary Mitchell O’Connor"}),(dl:Constituency {Name: "Dun Laoghaire"}) CREATE dlc7-[:IN]->dl;
+MATCH (dlc8:Candidate {Name: "Shane O’Brien"}),(dl:Constituency {Name: "Dun Laoghaire"}) CREATE dlc8-[:IN]->dl;
+MATCH (dlc9:Candidate {Name: "Carrie Smyth"}),(dl:Constituency {Name: "Dun Laoghaire"}) CREATE dlc9-[:IN]->dl;
+MATCH (dlc0:Candidate {Name: "Ossian Smyth"}),(dl:Constituency {Name: "Dun Laoghaire"}) CREATE dlc0-[:IN]->dl;
+MATCH (dlc11:Candidate {Name: "Raymond Whitehead"}),(dl:Constituency {Name: "Dun Laoghaire"}) CREATE dlc11-[:IN]->dl;
