@@ -389,4 +389,15 @@ CREATE
 	, (lcyc8:Candidate {Name: "Cian Prendeville", Party: "AAA", info: "Counciller", gender: "Male"})
 	, (lcyc9:Candidate {Name: "Maurice Quinlivan", Party: "Sinn Fine", info: "Counciller", gender: "Female"})
 	, (lcyc0:Candidate {Name: "Denis Riordan", Party: "Independant", info: "NA", gender: "Male"})
+	
+	, (lcoc:Candidate {Name: "Seamus Browne", Party: "Sinn Fine", info: "Counciller", gender: "Male"})
+	, (lcoc1:Candidate {Name: "Niall Collins", Party: "Fianna Fáil", info: "Outgoing TD", gender: "Male"})
+	, (lcoc2:Candidate {Name: "Alexander Cosgrave", Party: "Green Party", info: "NA", gender: "Male"})
+	, (lcoc3:Candidate {Name: "James Heffernan", Party: "Socail Democrates", info: "Senator", gender: "Male"})
+	, (lcoc4:Candidate {Name: "Mark Keogh", Party: "Direct Democracy/National Citizens' Movement", info: "NA", gender: "Male"})
+	, (lcoc5:Candidate {Name: "Tom Neville", Party: "Fine Gael", info: "Counciller", gender: "Male"})
+	, (lcoc6:Candidate {Name: "Emmett O’Brien", Party: "Independant", info: "Counciller", gender: "Male"})
+	, (lcoc7:Candidate {Name: "Richard O’Donoghue", Party: "Independant", info: "Counciller", gender: "Male"})
+	, (lcoc8:Candidate {Name: "John O’Gorman", Party: "Independant", info: "NA", gender: "Male"})
+	, (lcoc9:Candidate {Name: "Patrick O’Donovan", Party: "Fine Gael", info: "Outgoing TD", gender: "Male"})
 ;
