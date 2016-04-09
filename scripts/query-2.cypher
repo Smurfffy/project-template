@@ -1,9 +1,9 @@
-// Describe your query
-// at the start
-// in comments.
+// This query tells the user which running candidates were elected in the 2011 election.
 
 
 MATCH
-	(n)
+	(can:Candidate)-[rel:IN]->(con:Constituency)
+WHERE
+	(can.info) = "Outgoing TD"
 RETURN
-	n;
+	can, con;
