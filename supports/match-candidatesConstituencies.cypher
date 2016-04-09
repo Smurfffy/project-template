@@ -302,7 +302,21 @@ MATCH (ce33:Candidate {Name: "Kevin O’Keefe"}),(ce:Constituency {Name: "Cork E
 MATCH (ce44:Candidate {Name: "Sean Sherlock"}),(ce:Constituency {Name: "Cork East"}) CREATE ce44-[:IN]->ce;
 MATCH (ce55:Candidate {Name: "David Stanton"}),(ce:Constituency {Name: "Cork East"}) CREATE ce55-[:IN]->ce;
 
-
+MATCH (cncc:Candidate {Name: "Mick Barry"}),(cnc:Constituency {Name: "Cork North Central"}) CREATE cncc-[:IN]->cnc;
+MATCH (cncc1:Candidate {Name: "Thomas Gould"}),(cnc:Constituency {Name: "Cork North Central"}) CREATE cncc1-[:IN]->cnc;
+MATCH (cncc2:Candidate {Name: "Billy Kelleher"}),(cnc:Constituency {Name: "Cork North Central"}) CREATE cncc2-[:IN]->cnc;
+MATCH (cncc3:Candidate {Name: "Ger Keohane"}),(cnc:Constituency {Name: "Cork North Central"}) CREATE cncc3-[:IN]->cnc;
+MATCH (cncc4:Candidate {Name: "Thomas Kiely"}),(cnc:Constituency {Name: "Cork North Central"}) CREATE cncc4-[:IN]->cnc;
+MATCH (cncc5:Candidate {Name: "Kathleen Lynch"}),(cnc:Constituency {Name: "Cork North Central"}) CREATE cncc5-[:IN]->cnc;
+MATCH (cncc6:Candidate {Name: "Oliver Moran"}),(cnc:Constituency {Name: "Cork North Central"}) CREATE cncc6-[:IN]->cnc;
+MATCH (cncc7:Candidate {Name: "Dara Murphy"}),(cnc:Constituency {Name: "Cork North Central"}) CREATE cncc7-[:IN]->cnc;
+MATCH (cncc8:Candidate {Name: "Mick Murphy"}),(cnc:Constituency {Name: "Cork North Central"}) CREATE cncc8-[:IN]->cnc;
+MATCH (cncc9:Candidate {Name: "Jonathan O’Brien"}),(cnc:Constituency {Name: "Cork North Central"}) CREATE cncc9-[:IN]->cnc;
+MATCH (cncc0:Candidate {Name: "Julie O’Leary"}),(cnc:Constituency {Name: "Cork North Central"}) CREATE cncc0-[:IN]->cnc;
+MATCH (cncc11:Candidate {Name: "Paddy O’Leary"}),(cnc:Constituency {Name: "Cork North Central"}) CREATE cncc11-[:IN]->cnc;
+MATCH (cncc22:Candidate {Name: "Peter O’Loughlin"}),(cnc:Constituency {Name: "Cork North Central"}) CREATE cncc22-[:IN]->cnc;
+MATCH (cncc33:Candidate {Name: "Aislinn Tongue"}),(cnc:Constituency {Name: "Cork North Central"}) CREATE cncc33-[:IN]->cnc;
+MATCH (cncc44:Candidate {Name: "Ted Tynan"}),(cnc:Constituency {Name: "Cork North Central"}) CREATE cncc44-[:IN]->cnc;
 
 
 
